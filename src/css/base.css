@@ -1,10 +1,16 @@
 :root {
+    /* Colors */
     --black: #121417;
     --green: #4dc274;
     --light-green: #d4fde1;
     --gray: #f3f5f6;
     --white: #fff;
+
+    /* Fonts */
     --primary-family: "Manrope", sans-serif;
+
+    /* Animations */
+    --animation-func: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 *,
@@ -47,6 +53,8 @@ button {
     max-width: 375px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 @media only screen and (min-width: 768px) {
