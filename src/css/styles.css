@@ -10,11 +10,13 @@
 @import url('./colors.css');
 @import url('./container.css');
 @import url('./animations.css');
+@import url('./command.css');
 
 /* Sections style */
 @import url('./header.css');
 @import url('./vite-promo.css');
 @import url('./our-lessons.css');
+@import url('./proposal-section.css');
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
