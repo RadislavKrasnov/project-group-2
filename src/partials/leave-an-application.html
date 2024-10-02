@@ -1,0 +1,132 @@
+<section class="section section-application">
+  <!-- #region contact-form-title -->
+  <div class="container">
+    <h2 class="main-title">
+      Leave an <span class="decoration-underline">application</span>
+    </h2>
+    <p class="main-subtitle">
+      Please use the form below to contact us. Enter your name, email, and
+      message and we'll get back to you shortly.
+    </p>
+    <!-- #endregion contact-form-title -->
+
+    <div class="form-boxing">
+      <!-- #region img -->
+      <div class="left-section">
+        <div class="left-section-img-wrapper"></div>
+        <div class="lesson-info">
+          <h4 class="title-lesson-info">1000</h4>
+          <p class="lesson-info-subtitle">
+            of our online English language lessons! This journey has been full
+            of discovery, growth and unforgettable moments, and we are happy to
+            share this joyful event with you.
+          </p>
+        </div>
+      </div>
+      <!-- #endregion img -->
+
+      <!-- #region contact-form -->
+      <form class="contact-form" name="contact_form">
+        <div class="form-wrapper">
+          <input
+            class="form-input"
+            type="text"
+            id="name"
+            name="name"
+            pattern="[A-Za-z\s]+"
+            title="Only letters are allowed"
+            required
+            placeholder="Name"
+          />
+          <label class="form-label" for="name">Name</label>
+        </div>
+        <div class="form-wrapper">
+          <input
+            class="form-input"
+            type="email"
+            id="email"
+            name="email"
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+            title="Enter a valid email address, such as user@example.com"
+            required
+            placeholder="Email"
+          />
+          <label class="form-label" for="email">Email</label>
+        </div>
+        <div class="form-wrapper">
+          <input
+            class="form-input"
+            type="tel"
+            id="phone"
+            name="phone"
+            pattern="[0-9]{10}"
+            title="Enter a 10-digit phone number."
+            required
+            placeholder="Phone"
+          />
+          <label class="form-label" for="phone">Phone</label>
+        </div>
+        <div class="form-wrapper form-wrapper-comment">
+          <textarea
+            class="form-input form-comment"
+            name="comment"
+            id="comment"
+            placeholder="Comment"
+          ></textarea>
+          <label class="form-label form-label-comment" for="comment"
+            >Comment</label
+          >
+        </div>
+
+        <!-- #region teacher-option -->
+        <h3 class="secondary-heading">Choose a teacher</h3>
+        <div class="teacher-options radio-btn-animation">
+          <input
+            class="input-radio"
+            type="radio"
+            id="maria"
+            name="teacher"
+            value="Maria"
+            checked
+          />
+          <label for="maria">Maria</label>
+          <input
+            class="input-radio"
+            type="radio"
+            id="artem"
+            name="teacher"
+            value="Artem"
+          />
+          <label for="artem">Artem</label>
+          <input
+            class="input-radio"
+            type="radio"
+            id="ilona"
+            name="teacher"
+            value="Ilona"
+          />
+          <label for="ilona">Ilona</label>
+          <input
+            class="input-radio"
+            type="radio"
+            id="volodymyr"
+            name="teacher"
+            value="Volodymyr"
+          />
+          <label for="volodymyr">Volodymyr</label>
+        </div>
+        <!-- #endregion teacher-option -->
+
+        <!-- #region send-button -->
+        <button class="send-button">Send</button>
+        <p class="privacy-text">
+          By clicking on “Send” button, you agree to our
+          <a class="text-decoration" href="#">Privacy Policy</a>, and allow
+          Promodo to use this information for marketing purposes.
+        </p>
+        <!-- #endregion send-button -->
+      </form>
+      <!-- #endregion contact-form -->
+    </div>
+  </div>
+</section>
