@@ -1,9 +1,3 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 .section-application {
   padding: 80px 0;
 }
@@ -15,7 +9,6 @@
 }
 
 .container {
-  padding: 0 20px;
   width: 100%;
 }
 @media only screen and (min-width: 768px) {
@@ -23,21 +16,15 @@
     padding: 32px;
   }
 }
-@media only screen and (min-width: 1280px) {
-  .container {
-    max-width: 1024px;
-  }
-}
 
 /* #region contact-form-title */
 .main-title {
-  font-family: Manrope;
   font-size: 32px;
   font-weight: 700;
   line-height: 1.125em;
   letter-spacing: -0.02em;
   text-align: center;
-  color: #121417;
+  color: var(--black);
 }
 @media only screen and (min-width: 768px) {
   .main-title {
@@ -68,12 +55,9 @@
 }
 
 .main-subtitle {
-  font-family: Manrope;
-  font-size: 14px;
-  font-weight: 400;
   line-height: 1.71em;
   text-align: center;
-  color: #121417cc;
+  color: var(--black);
   margin-top: 16px;
 }
 @media only screen and (min-width: 768px) {
@@ -81,7 +65,7 @@
     padding: 0 59px;
     font-size: 18px;
     line-height: 1.67em;
-    color: #12141780;
+    color: var(--black);
   }
 }
 
@@ -110,7 +94,7 @@
     max-width: 492px;
     height: 578px;
     border-radius: 30px;
-    background-color: #4dc274;
+    background-color: var(--green);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -120,8 +104,7 @@
     padding: 40px 20px;
   }
 }
-.left-section-img-wrapper {
-}
+
 @media only screen and (min-width: 1280px) {
   .left-section-img-wrapper {
     border-radius: 50%;
@@ -138,22 +121,18 @@
     background-position-y: calc(-30px);
   }
 }
-.lesson-info {
-}
+
 @media only screen and (min-width: 1280px) {
   .lesson-info {
     width: 100%;
   }
 }
 
-.title-lesson-info {
-}
 @media only screen and (min-width: 1280px) {
   .title-lesson-info {
     font-size: 60px;
-    color: #ffffff;
+    color: var(--white);
     margin-bottom: 8px;
-    font-family: Manrope;
     font-size: 40px;
     font-weight: 700;
     line-height: 1.2em;
@@ -161,15 +140,13 @@
     text-align: center;
   }
 }
-.lesson-info-subtitle {
-}
+
 @media only screen and (min-width: 1280px) {
   .lesson-info-subtitle {
-    font-family: Manrope;
     font-size: 16px;
     line-height: 1.5em;
     text-align: center;
-    color: #ffffffb2;
+    color: var(--white);
   }
 }
 /* #endregion img */
@@ -203,7 +180,7 @@
   padding: 0;
   height: 50px;
   border-radius: 12px;
-  border: 1px solid #1214171a;
+  border: 1px solid var(--black);
   margin-bottom: 18px;
   padding: 16px 18px;
 }
@@ -216,8 +193,8 @@
 
 .form-input:active,
 .form-input:hover {
-  border: 1px solid #4dc274;
-  color: #4dc274;
+  border: 1px solid var(--green);
+  color: var(--green);
 }
 
 /* next rule for label animation is required */
@@ -230,8 +207,8 @@
   top: 8px;
   font-size: 12px;
   transform: translateY(-100%);
-  color: #4dc274;
-  background-color: #ffffff;
+  color: var(--green);
+  background-color: var(--white);
 }
 
 .form-label {
@@ -244,10 +221,10 @@
   font-weight: 400;
   line-height: 1.29em;
   text-align: left;
-  color: #121417;
+  color: var(--black);
   transition-duration: 250ms;
   transition-property: top, font-size;
-  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-timing-function: var(--animation-func);
 }
 @media only screen and (min-width: 768px) {
   .form-label {
@@ -277,13 +254,12 @@
 
 /* #region teacher-option */
 .secondary-heading {
-  font-family: Manrope;
   font-size: 18px;
   font-weight: 600;
   line-height: 1.333em;
   letter-spacing: -0.02em;
   text-align: left;
-  color: #121417;
+  color: var(--black);
   margin-top: 20px;
   margin-bottom: 14px;
 }
@@ -321,12 +297,11 @@
 }
 
 .teacher-options label {
-  font-family: Manrope;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71em;
   letter-spacing: -0.02em;
-  color: #121417;
+  color: var(--black);
 }
 
 @media only screen and (min-width: 768px) {
@@ -339,12 +314,11 @@
 
 /* #region send-button */
 .send-button {
-  background: #4dc274;
-  color: #ffffff;
+  background: var(--green);
+  color: var(--white);
   width: 100%;
   height: 52px;
   border-radius: 12px;
-  font-family: Manrope;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.71em;
@@ -354,7 +328,7 @@
 }
 .send-button:hover,
 .send-button:active {
-  background: #38ae5f;
+  background: var(--green);
 }
 @media only screen and (min-width: 768px) {
   .send-button {
@@ -366,12 +340,11 @@
   }
 }
 .privacy-text {
-  font-family: Manrope;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.33em;
   text-align: left;
-  color: #12141780;
+  color: var(--black);
   margin-top: 16px;
 }
 @media only screen and (min-width: 768px) {
@@ -389,9 +362,9 @@
 /*#region Radio buttons animation */
 
 .radio-btn-animation {
-  --background: #ffffff;
-  --radio: #d0d0d1;
-  --radio-checked: #4dc274;
+  --background: var(--white);
+  --radio: var(--light-green);
+  --radio-checked: var(--green);
   --radio-size: 18px;
   --border-radius: 10px;
 }
