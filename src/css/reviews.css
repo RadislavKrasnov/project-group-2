@@ -38,7 +38,7 @@
   width: 100%;
   height: 12px;
   border-radius: 8px;
-  background: var(--underline-decoration);
+  background: var(--green-pseudo);
   z-index: -1;
   bottom: -2px;
 }

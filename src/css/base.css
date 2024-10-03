@@ -5,8 +5,8 @@
   --light-green: #d4fde1;
   --gray: #f3f5f6;
   --white: #fff;
-  --underline-decoration: #bee8cc;
-  --btn-hover-green: #38ae5f;
+  --green-pseudo: #bee8cc;
+  --dark-green: #38ae5f;
 
   /* Opacity for black color */
   --black-50: #12141780;
@@ -80,6 +80,7 @@ button {
   letter-spacing: -0.02em;
   text-align: center;
   color: var(--black);
+
 }
 
 .logo {

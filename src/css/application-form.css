@@ -29,7 +29,7 @@
   width: 100%;
   height: 12px;
   border-radius: 8px;
-  background: var(--underline-decoration);
+  background: var(--green-pseudo);
   z-index: -1;
   bottom: -2px;
 }
@@ -78,7 +78,7 @@
     max-width: 492px;
     height: 578px;
     border-radius: 30px;
-    background-color: var(--green);
+    background-color: var(--dark-green);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -184,8 +184,8 @@
 
 .form-input:active,
 .form-input:hover {
-  border: 1px solid var(--green);
-  color: var(--green);
+  border: 1px solid var(--dark-green);
+  color: var(--dark-green);
 }
 
 /* next rule for label animation is required */
@@ -198,7 +198,7 @@
   top: 8px;
   font-size: 12px;
   transform: translateY(-100%);
-  color: var(--green);
+  color: var(--dark-green);
   background-color: var(--white);
 }
 
@@ -299,7 +299,7 @@
 
 /* #region send-button */
 .send-button {
-  background: var(--green);
+  background: var(--dark-green);
   color: var(--white);
   width: 100%;
   height: 52px;
@@ -311,7 +311,7 @@
 }
 .send-button:hover,
 .send-button:active {
-  background: var(--btn-hover-green);
+  background: var(--dark-green);
 }
 @media only screen and (min-width: 768px) {
   .send-button {
@@ -346,8 +346,8 @@
 
 .radio-btn-animation {
   --background: var(--white);
-  --radio: var(--black-20);
-  --radio-checked: var(--green);
+  --radio: var(--light-green);
+  --radio-checked: var(--dark-green);
   --radio-size: 18px;
   --border-radius: 10px;
 }
