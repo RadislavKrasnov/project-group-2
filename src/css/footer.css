@@ -23,7 +23,7 @@
 }
 
 .contact-list-item, .contact-link {
-    color: #FFF;
+    color: var(--white);
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -32,4 +32,72 @@
 
 .contact-link {
     text-decoration: none;
+}
+
+.footer-nav {
+    margin-top: 40px;
+}
+
+.page-nav-links a {
+    color: var(--white);
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.page-nav-links li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.footer-socials {
+    margin-top: 40px;
+}
+
+.footer-socials .media-icons,
+.footer-socials .media-item-link,
+.footer-links {
+    display: flex;
+}
+
+.footer-socials .media-icons {
+    gap: 12px
+}
+
+.media-icon {
+    fill: var(--white);
+}
+
+.footer-socials .media-item:hover .media-icon,
+.footer-socials .media-item:focus .media-icon,
+.footer-socials .media-item:active .media-icon {
+    fill: var(--green);
+}
+
+.footer-socials .media-item-link:hover,
+.footer-socials .media-item-link:focus,
+.footer-socials .media-item-link:active {
+    border: 1px solid rgba(77, 194, 116, 0.10);
+}
+
+.footer-socials .media-item-link {
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.footer-bottom .link, .footer-bottom .copyright {
+    color: rgba(255, 255, 255, 0.60);
+    letter-spacing: 0.02em;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.footer-links {
+    gap: 18px;
+    margin-top: 14px;
 }
