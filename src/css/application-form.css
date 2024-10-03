@@ -29,7 +29,7 @@
   width: 100%;
   height: 12px;
   border-radius: 8px;
-  background: #bee8cc;
+  background: var(--underline-decoration);
   z-index: -1;
   bottom: -2px;
 }
@@ -40,17 +40,16 @@
 }
 
 .main-subtitle {
-  line-height: 1.71em;
   text-align: center;
-  color: var(--black);
+  color: var(--black-80);
   margin-top: 16px;
 }
 @media only screen and (min-width: 768px) {
   .main-subtitle {
     padding: 0 59px;
     font-size: 18px;
-    line-height: 1.67em;
-    color: var(--black);
+    line-height: 1.67;
+    color: var(--black-50);
   }
 }
 
@@ -99,11 +98,17 @@
     height: 537px;
 
     bottom: 186px;
-    background: url(/img/photo/girl-learning.jpeg);
+    background-image: url(../img/an_application_photo/girl@1-min.jpeg);
 
     background-size: cover;
     background-position-x: calc(50% - 597px);
     background-position-y: calc(-30px);
+  }
+}
+
+@media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .left-section-img-wrapper {
+    background-image: url(../img/an_application_photo/girl@2x-min.jpeg);
   }
 }
 
@@ -120,7 +125,7 @@
     margin-bottom: 8px;
     font-size: 40px;
     font-weight: 700;
-    line-height: 1.2em;
+    line-height: 1.2;
     letter-spacing: -0.02em;
     text-align: center;
   }
@@ -129,9 +134,10 @@
 @media only screen and (min-width: 1280px) {
   .lesson-info-subtitle {
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.5;
     text-align: center;
     color: var(--white);
+    opacity: 70%;
   }
 }
 /* #endregion img */
@@ -165,7 +171,7 @@
   padding: 0;
   height: 50px;
   border-radius: 12px;
-  border: 1px solid var(--black);
+  border: 1px solid var(--black-10);
   margin-bottom: 18px;
   padding: 16px 18px;
 }
@@ -201,10 +207,7 @@
   left: 18px;
   top: 50%;
   transform: translateY(-100%);
-  font-family: Manrope;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.29em;
+  line-height: 1.29;
   text-align: left;
   color: var(--black);
   transition-duration: 250ms;
@@ -214,7 +217,7 @@
 @media only screen and (min-width: 768px) {
   .form-label {
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.5;
   }
 }
 
@@ -241,7 +244,7 @@
 .secondary-heading {
   font-size: 18px;
   font-weight: 600;
-  line-height: 1.333em;
+  line-height: 1.333;
   letter-spacing: -0.02em;
   text-align: left;
   color: var(--black);
@@ -282,9 +285,6 @@
 }
 
 .teacher-options label {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.71em;
   letter-spacing: -0.02em;
   color: var(--black);
 }
@@ -304,16 +304,14 @@
   width: 100%;
   height: 52px;
   border-radius: 12px;
-  font-size: 14px;
   font-weight: 700;
-  line-height: 1.71em;
   text-align: center;
   border: none;
   margin-top: 40px;
 }
 .send-button:hover,
 .send-button:active {
-  background: var(--green);
+  background: var(--btn-hover-green);
 }
 @media only screen and (min-width: 768px) {
   .send-button {
@@ -321,26 +319,26 @@
     padding: 0 102px;
     margin-top: 32px;
     font-size: 18px;
-    line-height: 1.56em;
+    line-height: 1.56;
   }
 }
 .privacy-text {
   font-size: 12px;
-  font-weight: 400;
-  line-height: 1.33em;
+  line-height: 1.33;
   text-align: left;
-  color: var(--black);
+  color: var(--black-50);
   margin-top: 16px;
 }
 @media only screen and (min-width: 768px) {
   .privacy-text {
     font-size: 14px;
-    line-height: 1.71em;
+    line-height: 1.71;
   }
 }
 
 .text-decoration {
   text-decoration: underline;
+  color: var(--black-50);
 }
 /* #endregion send-button */
 
@@ -348,10 +346,16 @@
 
 .radio-btn-animation {
   --background: var(--white);
-  --radio: var(--light-green);
+  --radio: var(--black-20);
   --radio-checked: var(--green);
   --radio-size: 18px;
   --border-radius: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .radio-btn-animation {
+    --radio-size: 20px;
+  }
 }
 
 .radio-btn-animation input[type='radio'] {
@@ -397,11 +401,23 @@
 }
 .radio-btn-animation input[type='radio']::after {
   position: relative;
-  width: calc(100% / 1.5);
-  height: calc(100% / 1.5);
+  /* width: calc(100% / 1.5);
+  height: calc(100% / 1.5); */
+  width: 10px;
+  height: 10px;
   background: var(--radio-checked);
   top: var(--y, 100%);
   transition: top 0.5s cubic-bezier(0.48, 1.97, 0.5, 0.63);
+}
+@media only screen and (min-width: 768px) {
+  .radio-btn-animation input[type='radio']::after {
+    position: relative;
+    width: calc(100% / 1.3);
+    height: calc(100% / 1.3);
+    background: var(--radio-checked);
+    top: var(--y, 100%);
+    transition: top 0.5s cubic-bezier(0.48, 1.97, 0.5, 0.63);
+  }
 }
 .radio-btn-animation input[type='radio']:checked {
   --radio: var(--radio-checked);
