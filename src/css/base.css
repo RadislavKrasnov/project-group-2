@@ -1,9 +1,10 @@
 :root {
   /* Colors */
   --black: #121417;
+  --green: #4dc274;
   --dark-green: #38ae5f;
   --light-green: #d4fde1;
-  --dark-green-pseudo: #bee8cc;
+  --green-pseudo: #bee8cc;
   --gray: #f3f5f6;
   --white: #fff;
 

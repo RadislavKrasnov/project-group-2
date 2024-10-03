@@ -11,47 +11,47 @@
   overflow: hidden;
 }
 
-.proposal__container {
+.proposal-container {
   border-radius: 16px;
   background-image: linear-gradient(
     85deg,
-    var(--color-green) 2.25%,
-    var(--color-green-pseudo) 131.25%
+    var(--green) 2.25%,
+    var(--green-pseudo) 131.25%
   );
 }
 
-.proposal__wrapper {
+.proposal-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
-  .proposal__pic {
+  .proposal-pic {
     display: none;
   }
 
-  .proposal__container {
+  .proposal-container {
     padding-top: 40px;
   }
 
-  .proposal__wrapper {
+  .proposal-wrapper {
     max-width: 296px;
   }
 
-  .proposal__heading {
+  .proposal-heading {
     font-weight: 700;
     font-size: 38px;
     line-height: 1.05;
     padding-left: 20px;
-    color: var(--color-white);
+    color: var(--white);
   }
 
-  .proposal__heading-current {
+  .proposal-heading-current {
     font-weight: 700;
     font-size: 38px;
     line-height: 1.05;
-    color: var(--color-green-pseudo);
+    color: var(--green-pseudo);
   }
 
   .proposal {
@@ -59,53 +59,53 @@
     padding-right: 20px;
   }
 
-  .proposal__wrap {
+  .proposal-wrap {
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     width: 20px;
     height: 20px;
-    background-color: var(--color-green);
+    background-color: var(--green);
   }
 
-  .proposal__icon {
+  .proposal-icon {
     width: 16px;
     height: 14px;
-    fill: var(--color-white);
+    fill: var(--white);
   }
 
-  .proposal__tittle {
+  .proposal-tittle {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.2;
     letter-spacing: -0.02em;
-    color: var(--color-black);
+    color: var(--black);
   }
 
-  .proposal__item-text {
+  .proposal-item-text {
     font-weight: 700;
     font-size: 12px;
     line-height: 1.4;
     letter-spacing: -0.02em;
-    color: var(--color-black);
+    color: var(--black);
   }
 
-  .proposal__list {
+  .proposal-list {
     display: flex;
     flex-direction: column;
     gap: 16px;
     margin-bottom: 20px;
   }
 
-  .proposal__item {
+  .proposal-item {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
   }
 
-  .proposal__tittle {
+  .proposal-tittle {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
@@ -113,7 +113,7 @@
     margin-bottom: 20px;
   }
 
-  .proposal__button {
+  .proposal-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,17 +122,17 @@
     line-height: 1.7;
     border-radius: 12px;
     padding: 14px 0;
-    color: var(--color-white);
-    background-color: var(--color-green);
+    color: var(--white);
+    background-color: var(--green);
     transition: background-color var(--transition-dur-and-func);
   }
 
-  .proposal__button:hover,
-  .proposal__button:focus {
-    background-color: var(--color-dark-green);
+  .proposal-button:hover,
+  .proposal-button:focus {
+    background-color: var(--dark-green);
   }
 
-  .proposal__box {
+  .proposal-box {
     background: url(../img/bg-proposal-mobile-1x.png) no-repeat
       center/contain;
     min-height: 455px;
@@ -145,7 +145,7 @@
 @media screen and (min-width: 320px) and (max-width: 374px) and (min-resolution: 192dpi),
   (min-width: 320px) and (max-width: 374px) and (min-resolution: 2dppx),
   (min-width: 320px) and (max-width: 374px) and (min-device-pixel-ratio: 2) {
-  .proposal__box {
+  .proposal-box {
     background: url(../img/bg-proposal-mobile-2x.png) no-repeat
       center/contain;
   }
@@ -157,38 +157,38 @@
     padding-right: 0px;
   }
 
-  .proposal__wrapper {
+  .proposal-wrapper {
     max-width: unset;
   }
 
-  .proposal__container {
+  .proposal-container {
     margin: 0 auto;
     padding-top: 40px;
     padding-bottom: 20px;
     max-width: 335px;
   }
 
-  .proposal__pic {
+  .proposal-pic {
     display: none;
   }
 
-  .proposal__heading {
+  .proposal-heading {
     font-weight: 700;
     font-size: 38px;
     line-height: 1.05;
     margin-bottom: 20px;
     padding-left: 20px;
-    color: var(--color-white);
+    color: var(--white);
   }
 
-  .proposal__heading-current {
+  .proposal-heading-current {
     font-weight: 700;
     font-size: 38px;
     line-height: 1.05;
-    color: var(--color-green-pseudo);
+    color: var(--green-pseudo);
   }
 
-  .proposal__box {
+  .proposal-box {
     background: url(../img/bg-proposal-mobile-1x.png) no-repeat
       center/contain;
     display: flex;
@@ -197,54 +197,54 @@
     padding: 0 36px;
   }
 
-  .proposal__wrap {
+  .proposal-wrap {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: var(--color-green);
+    background-color: var(--green);
   }
 
-  .proposal__icon {
+  .proposal-icon {
     width: 18px;
     height: 16px;
-    fill: var(--color-white);
+    fill: var(--white);
   }
 
-  .proposal__tittle {
+  .proposal-tittle {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: -0.02em;
-    color: var(--color-black);
+    color: var(--black);
   }
 
-  .proposal__item-text {
+  .proposal-item-text {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.4;
     letter-spacing: -0.02em;
     width: 227px;
-    color: var(--color-black);
+    color: var(--black);
   }
 
-  .proposal__list {
+  .proposal-list {
     display: flex;
     flex-direction: column;
     gap: 16px;
     margin-bottom: 20px;
   }
 
-  .proposal__item {
+  .proposal-item {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
   }
 
-  .proposal__tittle {
+  .proposal-tittle {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
@@ -252,7 +252,7 @@
     margin-bottom: 20px;
   }
 
-  .proposal__button {
+  .proposal-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -261,28 +261,28 @@
     line-height: 1.7;
     padding: 14px 0;
     border-radius: 12px;
-    color: var(--color-white);
-    background-color: var(--color-green);
+    color: var(--white);
+    background-color: var(--green);
     transition: background-color var(--transition-dur-and-func);
   }
 
-  .proposal__button:hover,
-  .proposal__button:focus {
-    background-color: var(--color-dark-green);
+  .proposal-button:hover,
+  .proposal-button:focus {
+    background-color: var(--dark-green);
   }
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) and (min-resolution: 192dpi),
   (min-width: 375px) and (max-width: 767px) and (min-resolution: 2dppx),
   (min-width: 375px) and (max-width: 767px) and (min-device-pixel-ratio: 2) {
-  .proposal__box {
+  .proposal-box {
     background: url(../img/bg-proposal-mobile-2x.png) no-repeat
       center/contain;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .proposal__container {
+  .proposal-container {
     margin: 0 auto;
     padding-top: 64px;
     padding-bottom: 30px;
@@ -290,27 +290,27 @@
     max-width: 704px;
   }
 
-  .proposal__wrapper {
+  .proposal-wrapper {
     max-width: 448px;
   }
 
-  .proposal__heading {
+  .proposal-heading {
     font-weight: 700;
     font-size: 60px;
     line-height: 1.2;
     margin-bottom: 33px;
     padding-left: 32px;
-    color: var(--color-white);
+    color: var(--white);
   }
 
-  .proposal__heading-current {
+  .proposal-heading-current {
     font-weight: 700;
     font-size: 60px;
     line-height: 1.2;
-    color: var(--color-green-pseudo);
+    color: var(--green-pseudo);
   }
 
-  .proposal__box {
+  .proposal-box {
     background: url(../img/bg-proposal-tablet-1x.png) no-repeat center/auto;
     background-position: calc(50% + 5px) center;
     display: flex;
@@ -321,7 +321,7 @@
     position: relative;
   }
 
-  .proposal__list {
+  .proposal-list {
     display: flex;
     align-items: start;
     justify-content: center;
@@ -330,47 +330,47 @@
     margin-bottom: 32px;
   }
 
-  .proposal__item {
+  .proposal-item {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
   }
 
-  .proposal__wrap {
+  .proposal-wrap {
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     min-width: 28px;
     height: 28px;
-    background-color: var(--color-green);
+    background-color: var(--green);
   }
 
-  .proposal__icon {
-    fill: var(--color-white);
+  .proposal-icon {
+    fill: var(--white);
     width: 24px;
     height: 22px;
   }
 
-  .proposal__tittle {
+  .proposal-tittle {
     font-weight: 700;
     font-size: 40px;
     line-height: 1.2;
     letter-spacing: -0.02em;
     margin-bottom: 32px;
-    color: var(--color-black);
+    color: var(--black);
   }
 
-  .proposal__item-text {
+  .proposal-item-text {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: -0.02em;
-    color: var(--color-black);
+    color: var(--black);
   }
 
-  .proposal__button {
+  .proposal-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -380,16 +380,16 @@
     border-radius: 12px;
     padding: 16px 0;
     max-width: 306px;
-    color: var(--color-white);
-    background-color: var(--color-green);
+    color: var(--white);
+    background-color: var(--green);
     transition: background-color var(--transition-dur-and-func);
   }
 
-  .proposal__button:hover,
-  .proposal__button:focus {
-    background-color: var(--color-dark-green);
+  .proposal-button:hover,
+  .proposal-button:focus {
+    background-color: var(--dark-green);
   }
-  .proposal__pic {
+  .proposal-pic {
     position: absolute;
     bottom: 126px;
     right: -31px;
@@ -399,43 +399,43 @@
 @media screen and (min-width: 768px) and (min-resolution: 192dpi),
   (min-width: 768px) and (min-resolution: 2dppx),
   (min-width: 768px) and (min-device-pixel-ratio: 2) {
-  .proposal__box {
+  .proposal-box {
     background: url(../img/bg-proposal-tablet-2x.png) no-repeat center/cover;
     background-position: calc(50% + 5px) center;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .proposal__container {
+  .proposal-container {
     margin: 0 auto;
     padding-top: 64px;
     padding-bottom: 69px;
     max-width: 1152px;
   }
 
-  .proposal__wrapper {
+  .proposal-wrapper {
     max-width: 657px;
     margin-right: 92px;
   }
 
-  .proposal__heading {
+  .proposal-heading {
     font-weight: 700;
     font-size: 60px;
     line-height: 1.2;
     margin-bottom: 72px;
     padding-left: 64px;
     width: 830px;
-    color: var(--color-white);
+    color: var(--white);
   }
 
-  .proposal__heading-current {
+  .proposal-heading-current {
     font-weight: 700;
     font-size: 60px;
     line-height: 1.2;
-    color: var(--color-green-pseudo);
+    color: var(--green-pseudo);
   }
 
-  .proposal__box {
+  .proposal-box {
     background: url(../img/bg-proposal-desktop-1x.png) no-repeat center/cover;
     display: flex;
     justify-content: space-between;
@@ -447,7 +447,7 @@
     position: relative;
   }
 
-  .proposal__list {
+  .proposal-list {
     display: flex;
     align-items: start;
     justify-content: center;
@@ -456,47 +456,47 @@
     margin-bottom: 39px;
   }
 
-  .proposal__item {
+  .proposal-item {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
   }
 
-  .proposal__wrap {
+  .proposal-wrap {
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     width: 28px;
     height: 28px;
-    background-color: var(--color-green);
+    background-color: var(--green);
   }
 
-  .proposal__icon {
-    fill: var(--color-white);
+  .proposal-icon {
+    fill: var(--white);
     width: 24px;
     height: 22px;
   }
 
-  .proposal__tittle {
+  .proposal-tittle {
     font-weight: 700;
     font-size: 40px;
     line-height: 1.2;
     letter-spacing: -0.02em;
     margin-bottom: 42px;
-    color: var(--color-black);
+    color: var(--black);
   }
 
-  .proposal__item-text {
+  .proposal-item-text {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: -0.02em;
-    color: var(--color-black);
+    color: var(--black);
   }
 
-  .proposal__button {
+  .proposal-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -506,27 +506,27 @@
     border-radius: 12px;
     padding: 16px 0;
     max-width: 306px;
-    color: var(--color-white);
-    background-color: var(--color-green);
+    color: var(--white);
+    background-color: var(--green);
     transition: background-color var(--transition-dur-and-func);
   }
 
-  .proposal__pic {
+  .proposal-pic {
     position: absolute;
     bottom: 151px;
     right: 43px;
   }
 
-  .proposal__button:hover,
-  .proposal__button:focus {
-    background-color: var(--color-dark-green);
+  .proposal-button:hover,
+  .proposal-button:focus {
+    background-color: var(--dark-green);
   }
 }
 
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi),
   (min-width: 1280px) and (min-resolution: 2dppx),
   (min-width: 1280px) and (min-device-pixel-ratio: 2) {
-  .proposal__box {
+  .proposal-box {
     background: url(../img/bg-proposal-desktop-2x.png) no-repeat center/cover;
     left: -10px;
   }
