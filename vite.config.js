@@ -44,8 +44,5 @@ export default defineConfig(({ command }) => {
         sort: 'mobile-first',
       }),
     ],
-    server: {
-      port: 3000
-    },
   };
 });
