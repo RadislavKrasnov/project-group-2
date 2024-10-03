@@ -1,38 +1,30 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-.section {
-}
-.container {
+.container-reviews {
   padding: 0 20px;
   width: 100%;
+  margin: 0 auto;
 }
 @media only screen and (min-width: 768px) {
-  .container {
+  .container-reviews {
     padding: 32px;
   }
 }
 @media only screen and (min-width: 1280px) {
-  .container {
+  .container-reviews {
     max-width: 1024px;
   }
 }
 .title-reviews {
-  font-family: Manrope;
   font-size: 32px;
   font-weight: 700;
-  line-height: 36px;
+  line-height: 1.13;
   letter-spacing: -0.02em;
   text-align: center;
-  color: #121417;
+  color: var(--black);
 }
 @media only screen and (min-width: 768px) {
   .title-reviews {
     font-size: 40px;
-    line-height: 48px;
+    line-height: 1.2;
   }
 }
 .decoration-underline {
@@ -46,7 +38,7 @@
   width: 100%;
   height: 12px;
   border-radius: 8px;
-  background: #bee8cc;
+  background: var(--underline-decoration);
   z-index: -1;
   bottom: -2px;
 }
@@ -57,17 +49,15 @@
 }
 .subtitle-reviews {
   margin-top: 16px;
-  font-family: Manrope;
-  font-size: 14px;
-  line-height: 24px;
   text-align: center;
-  color: #12141780;
+  color: var(--black);
+  opacity: 80%;
 }
 
 @media only screen and (min-width: 768px) {
   .subtitle-reviews {
     font-size: 18px;
-    line-height: 30px;
+    line-height: 2.14;
   }
 }
 
@@ -89,7 +79,7 @@
 }
 .box-reviews {
   border-radius: 16px;
-  background: #f3f5f6;
+  background: var(--gray);
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
@@ -124,7 +114,7 @@
 .box-reviews-inside {
   padding: 14px;
   border-radius: 8px;
-  background: #4dc274;
+  background: var(--green);
   display: flex;
   column-gap: 8px;
 }
@@ -142,28 +132,24 @@
   justify-content: center;
 }
 .name-person {
-  font-family: Manrope;
   font-size: 20px;
   font-weight: 700;
-  line-height: 24px;
   letter-spacing: -0.02em;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .position-person {
   margin-top: 2px;
-  font-family: Manrope;
   font-size: 12px;
-  line-height: 16px;
-  color: #ffffff80;
+  line-height: 1.3;
+  color: var(--white);
+  opacity: 50%;
 }
 .reviews-text {
   margin-top: 20px;
   padding: 0 14px;
-  font-family: Manrope;
-  font-size: 14px;
-  line-height: 24px;
-  color: #12141780;
+  color: var(--black);
+  opacity: 80%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -171,6 +157,6 @@
     margin-top: 32px;
     padding: 0 16px;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
   }
 }
