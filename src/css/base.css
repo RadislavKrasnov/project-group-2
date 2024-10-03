@@ -66,6 +66,17 @@ button {
     color: var(--black);
 }
 
+.logo {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.green-color {
+    color: var(--green);
+}
+
 @media only screen and (min-width: 768px) {
     body {
         font-size: 16px;

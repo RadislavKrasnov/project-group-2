@@ -1,0 +1,35 @@
+.page-footer {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.footer-container {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.footer-contacts {
+    margin-top: 20px
+}
+
+.contact-list-item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.contact-lable {
+    color: rgba(255, 255, 255, 0.60);
+    font-style: normal;
+    letter-spacing: 0.02em;
+}
+
+.contact-list-item, .contact-link {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.28;
+}
+
+.contact-link {
+    text-decoration: none;
+}
