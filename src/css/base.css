@@ -1,93 +1,102 @@
 :root {
-    /* Colors */
-    --black: #121417;
-    --green: #4dc274;
-    --light-green: #d4fde1;
-    --gray: #f3f5f6;
-    --white: #fff;
+  /* Colors */
+  --black: #121417;
+  --dark-green: #38ae5f;
+  --light-green: #d4fde1;
+  --dark-green-pseudo: #bee8cc;
+  --gray: #f3f5f6;
+  --white: #fff;
 
-    /* Fonts */
-    --primary-family: "Manrope", sans-serif;
+  /* Fonts */
+  --primary-family: 'Manrope', sans-serif;
 
-    /* Animations */
-    --animation-func: cubic-bezier(0.075, 0.82, 0.165, 1);
+  /* Animations */
+  --animation-func: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: var(--primary-family);
-    font-size: 14px;
-    line-height: 1.7;
-    background: var(--white);
+  margin: 0;
+  font-family: var(--primary-family);
+  font-size: 14px;
+  line-height: 1.7;
+  background: var(--white);
 }
 
 ul {
-    padding: 0;
-    list-style-type: none;
+  padding: 0;
+  list-style-type: none;
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol {
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
 }
 
 img {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .container {
-    max-width: 375px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-right: auto;
-    margin-left: auto;
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .section-title {
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 1.12;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: var(--black);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--black);
 }
 
 @media only screen and (min-width: 768px) {
-    body {
-        font-size: 16px;
-        line-height: 1.5;
-    }
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
 
-    .container {
-        max-width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 
-    .section-title {
-        font-size: 40px;
-        line-height: 1.2;
-    }
+  .section-title {
+    font-size: 40px;
+    line-height: 1.2;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    .container {
-        max-width: 1152px;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
+  .container {
+    max-width: 1152px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
 }

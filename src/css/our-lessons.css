@@ -1,4 +1,4 @@
-.lessons__title {
+.lessons-title {
   color: var(--color-black);
   text-align: center;
   font-size: 32px;
@@ -9,7 +9,7 @@
   margin-bottom: 16px;
 }
 
-.lessons__subtext {
+.lessons-subtext {
   color: rgba(18, 20, 23, 0.5);
   text-align: center;
   font-size: 14px;
@@ -18,7 +18,7 @@
   margin-bottom: 40px;
 }
 
-.lessons__card-list {
+.lessons-card-list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,52 +27,52 @@
   margin: 0 auto;
 }
 
-.lessons__card-item {
+.lessons-card-item {
   padding: 40px 20px;
   display: flex;
   flex-direction: column;
   gap: 16px;
   border-radius: 30px;
-  border: 1px solid var(--color-green);
+  border: 1px solid var(--dark-green);
 }
 
-.lessons__card-item:focus,
-.lessons__card-item:hover {
+.lessons-card-item:focus,
+.lessons-card-item:hover {
   box-shadow: 0 1px 6px #2e2f4214, 0 1px 1px #2e2f4229, 0 2px 1px #2e2f4214;
 }
 
-.lessons__card-item:nth-child(even) {
-  background-color: var(--color-green);
-  color: var(--color-white);
+.lessons-card-item:nth-child(even) {
+  background-color: var(--dark-green);
+  color: var(--white);
 }
 
-.lessons__card-item:nth-child(even) .lessons__card-title {
-  color: var(--color-white);
+.lessons-card-item:nth-child(even) .lessons-card-title {
+  color: var(--white);
 }
 
-.lessons__card-item:nth-child(even) .lessons__card-price {
-  color: var(--color-white);
+.lessons-card-item:nth-child(even) .lessons-card-price {
+  color: var(--white);
 }
 
-.lessons__card-item:nth-child(even) .lessons__card-desc {
+.lessons-card-item:nth-child(even) .lessons-card-desc {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.lessons__card-item:nth-child(even) .lessons__card-button:hover {
-  background-color: var(--color-white);
+.lessons-card-item:nth-child(even) .lessons-card-button:hover {
+  background-color: var(--white);
 }
 
-.lessons__card-button-even {
+.lessons-card-button-even {
   border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
-.lessons__card-button-even:hover {
-  background-color: var(--color-white);
-  color: var(--color-green);
+.lessons-card-button-even:hover {
+  background-color: var(--white);
+  color: var(--dark-green);
 }
 
-.lessons__card-title {
-  color: var(--color-black);
+.lessons-card-title {
+  color: var(--black);
   text-align: center;
   font-size: 20px;
   font-weight: 700;
@@ -81,17 +81,17 @@
   margin-bottom: 16px;
 }
 
-.lessons__card-price {
+.lessons-card-price {
   text-align: center;
   font-size: 32px;
   font-weight: 700;
   line-height: 36px;
   letter-spacing: -0.64px;
   margin-bottom: 24px;
-  color: var(--color-black);
+  color: var(--black);
 }
 
-.lessons__card-desc {
+.lessons-card-desc {
   text-align: center;
   font-size: 14px;
   font-weight: 400;
@@ -100,29 +100,29 @@
   color: rgba(18, 20, 23, 0.5);
 }
 
-.lessons__card-button {
+.lessons-card-button {
   width: 100%;
   height: 52px;
   font-size: 14px;
   font-weight: 700;
-  color: var(--color-white);
+  color: var(--white);
   justify-content: center;
   align-items: center;
   border-radius: 12px;
-  background: var(--color-green);
+  background: var(--dark-green);
   margin: 0 auto;
   display: flex;
   transition: var(--transition-dur-and-func);
 }
 
-.lessons__card-button:focus,
-.lessons__card-button:hover {
-  background-color: var(--color-dark-green);
+.lessons-card-button:focus,
+.lessons-card-button:hover {
+  background-color: var(--dark-green);
 }
 
 .border:hover {
-  color: var(--color-green);
-  background-color: var(--color-white);
+  color: var(--dark-green);
+  background-color: var(--white);
 }
 
 /**
@@ -132,32 +132,32 @@
 */
 
 @media screen and (min-width: 768px) {
-  .lessons__title {
+  .lessons-title {
     font-size: 40px;
     line-height: 1.2;
     letter-spacing: -0.8px;
   }
 
-  .lessons__subtext {
+  .lessons-subtext {
     font-size: 18px;
     line-height: 1.67;
     margin-bottom: 64px;
   }
 
-  .lessons__card-list {
+  .lessons-card-list {
     justify-content: flex-start;
   }
 
-  .lessons__card-item {
+  .lessons-card-item {
     width: 336px;
     padding: 32px 16px;
   }
 
-  .lessons__card-price {
+  .lessons-card-price {
     margin-bottom: 32px;
   }
 
-  .lessons__card-desc {
+  .lessons-card-desc {
     font-size: 16px;
     margin-bottom: 20px;
     line-height: 1.5;
@@ -171,32 +171,32 @@
 */
 
 @media screen and (min-width: 1280px) {
-  .lessons__subtext {
+  .lessons-subtext {
     width: 665px;
     font-size: 18px;
     line-height: 1.66;
   }
 
-  .lessons__subtext {
+  .lessons-subtext {
     margin: 0 auto;
     margin-bottom: 64px;
   }
 
-  .lessons__card-list {
+  .lessons-card-list {
     flex-wrap: nowrap;
     justify-content: center;
   }
 
-  .lessons__card-item {
+  .lessons-card-item {
     width: 320px;
     padding: 32px 32px;
   }
 
-  .lessons__card-price {
+  .lessons-card-price {
     margin-bottom: 16px;
   }
 
-  .lessons__card-desc {
+  .lessons-card-desc {
     margin-bottom: 16px;
     width: 255px;
   }
