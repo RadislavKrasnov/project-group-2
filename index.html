@@ -12,8 +12,12 @@
     <link rel="icon" type="image/svg+xml" href="/project-group-2/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <script type="module" crossorigin src="/project-group-2/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-group-2/assets/index-B4BgpLwU.css">
+    <link rel="stylesheet" crossorigin href="/project-group-2/assets/index-BNnDklbY.css">
   </head>
   <body>
     <header class="page-header">
@@ -84,16 +88,146 @@
     </div>
 </section>
 
-      <section class="section">
-    <div class="container">
+      <section class="our-lessons section" id="our-lessons">
+  <div class="title-container container">
+    <h2 class="lessons-title">
+      Our <span class="text-element">lessons</span>
+    </h2>
+    <p class="lessons-subtext">
+      Our lessons are carefully structured and interactive, designed to promote
+      rapid language acquisition through practical tasks and real-world
+      scenarios.
+    </p>
+    <ul class="lessons-card-list">
+      <li
+        class="lessons-card-item wow animate__animated animate__fadeInLeftBig"
+        data-wow-duration="1s"
+        data-wow-delay="0.9s"
+      >
+        <h3 class="lessons-card-title">Practice</h3>
+        <p class="lessons-card-price">40$ / month</p>
+        <p class="lessons-card-desc">
+          This plan offers an opportunity for learners to engage in
+          collaborative language exercises and group activities, boosting their
+          conversational skills and confidence in using English.
+        </p>
+        <a
+          data-target="leave-section"
+          class="lessons-card-button lessons-card-button-text scroll-button"
+          href="#contact-us"
+          >Leave an application</a
+        >
+      </li>
 
-    </div>
-</section>
-      <section class="section">
-  <div class="container">
+      <li
+        class="lessons-card-item wow animate__animated animate__fadeInLeftBig"
+        data-wow-duration="1s"
+        data-wow-delay="0.7s"
+      >
+        <h3 class="lessons-card-title">Standard</h3>
+        <p class="lessons-card-price">70$ / month</p>
+        <p class="lessons-card-desc">
+          Our standard package provides a balanced learning approach that covers
+          all key areas of English language - reading, writing, listening, and
+          speaking. It is a set of basic knowledge and skills.
+        </p>
+        <a
+          data-target="leave-section"
+          class="lessons-card-button lessons-card-button-even scroll-button"
+          href="#contact-us"
+          >Leave an application</a
+        >
+      </li>
 
+      <li
+        class="lessons-card-item wow animate__animated animate__fadeInLeftBig"
+        data-wow-duration="1s"
+        data-wow-delay="0.5s"
+      >
+        <h3 class="lessons-card-title">Individual</h3>
+        <p class="lessons-card-price">99$ / month</p>
+        <p class="lessons-card-desc">
+          We offer a tailored learning experience with individualized
+          instruction that focuses on a learner's specific language goals and
+          challenges, offering personal feedback.
+        </p>
+        <a
+          data-target="leave-section"
+          class="lessons-card-button scroll-button"
+          href="#contact-us"
+          >Leave an application</a
+        >
+      </li>
+    </ul>
   </div>
 </section>
+
+      <section class="proposal section">
+    <div class="proposal-container">
+      <h2 class="visually-hidden">Proposal to leave an application</h2>
+      <p
+        class="proposal-heading wow animate__animated animate__zoomIn"
+        data-wow-duration="1s"
+        data-wow-delay="0.3s"
+      >
+        Master the <span class="proposal-heading-current">Language</span> with
+        Our English Package!
+      </p>
+      <div class="proposal-box">
+        <div class="proposal-wrapper">
+          <h3 class="proposal-tittle">Power of English</h3>
+          <ul class="proposal-list">
+            <li class="proposal-item">
+              <div class="proposal-wrap">
+                <svg class="proposal-icon">
+                  <use href="./sprite.svg#icon-check"></use>
+                </svg>
+              </div>
+              <p class="proposal-item-text">
+                Dive into captivating lessons designed to stimulate your
+                curiosity.
+              </p>
+            </li>
+            <li class="proposal-item">
+              <div class="proposal-wrap">
+                <svg class="proposal-icon">
+                  <use href="./sprite.svg#icon-check"></use>
+                </svg>
+              </div>
+              <p class="proposal-item-text">
+                Learn in a nurturing setting where every student's progress
+                matters.
+              </p>
+            </li>
+            <li class="proposal-item">
+              <div class="proposal-wrap">
+                <svg class="proposal-icon">
+                  <use href="./sprite.svg#icon-check"></use>
+                </svg>
+              </div>
+              <p class="proposal-item-text">
+                Experience the satisfaction of real progress as your language
+                skills and confidence grow with every session.
+              </p>
+            </li>
+          </ul>
+          <a
+            data-target="leave-section"
+            href=""
+            class="proposal-button proposal-button-text scroll-button"
+          >
+            Leave an application
+          </a>
+        </div>
+        <img
+          class="proposal-pic"
+          srcset="/project-group-2/assets/books-2x-Dc9hSoed.png 2x"
+          src="/project-group-2/assets/books-1x-ZFTpd7Pn.png"
+          alt="books on top of each other"
+        />
+      </div>
+    </div>
+  </section>
 
       <section class="section">
     <div class="container">
@@ -399,5 +533,9 @@
 </footer>
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
