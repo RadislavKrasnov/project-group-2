@@ -6,6 +6,13 @@
   --gray: #f3f5f6;
   --white: #fff;
   --underline-decoration: #bee8cc;
+  --btn-hover-green: #38ae5f;
+
+  /* Opacity for black color */
+  --black-50: #12141780;
+  --black-10: #1214171a;
+  --black-20: #12141733;
+  --black-80: #121417cc;
 
   /* Fonts */
   --primary-family: 'Manrope', sans-serif;
