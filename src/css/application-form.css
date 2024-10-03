@@ -1,0 +1,454 @@
+.section-application {
+  padding: 80px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    padding: 100px 0;
+  }
+}
+
+.container {
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    padding: 32px;
+  }
+}
+
+/* #region contact-form-title */
+.decoration-underline {
+  display: inline-block;
+  position: relative;
+}
+.decoration-underline::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 12px;
+  border-radius: 8px;
+  background: #bee8cc;
+  z-index: -1;
+  bottom: -2px;
+}
+@media only screen and (min-width: 768px) {
+  .decoration-underline::before {
+    height: 20px;
+  }
+}
+
+.main-subtitle {
+  line-height: 1.71em;
+  text-align: center;
+  color: var(--black);
+  margin-top: 16px;
+}
+@media only screen and (min-width: 768px) {
+  .main-subtitle {
+    padding: 0 59px;
+    font-size: 18px;
+    line-height: 1.67em;
+    color: var(--black);
+  }
+}
+
+/* #endregion contact-form-title */
+
+.form-boxing {
+  /* padding: 0 128px; */
+  display: flex;
+  gap: 32px;
+  margin-top: 64px;
+}
+
+@media only screen and (min-width: 1280px) {
+  .form-boxing {
+    padding: unset;
+  }
+}
+
+/* #region img */
+.left-section {
+  display: none;
+}
+@media only screen and (min-width: 1280px) {
+  .left-section {
+    min-width: 492px;
+    max-width: 492px;
+    height: 578px;
+    border-radius: 30px;
+    background-color: var(--green);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    overflow: hidden;
+    padding: 40px 20px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .left-section-img-wrapper {
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    width: 597px;
+    height: 537px;
+
+    bottom: 186px;
+    background: url(/img/photo/girl-learning.jpeg);
+
+    background-size: cover;
+    background-position-x: calc(50% - 597px);
+    background-position-y: calc(-30px);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .lesson-info {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .title-lesson-info {
+    font-size: 60px;
+    color: var(--white);
+    margin-bottom: 8px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .lesson-info-subtitle {
+    font-size: 16px;
+    line-height: 1.5em;
+    text-align: center;
+    color: var(--white);
+  }
+}
+/* #endregion img */
+
+/* #region contact-form  */
+.contact-form {
+  width: 100%;
+  gap: 18px;
+}
+@media only screen and (min-width: 768px) {
+  .contact-form {
+    padding: 0 102px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .contact-form {
+    padding: 0;
+  }
+}
+.form-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.form-input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  border-color: transparent;
+  outline: none;
+  padding: 0;
+  height: 50px;
+  border-radius: 12px;
+  border: 1px solid var(--black);
+  margin-bottom: 18px;
+  padding: 16px 18px;
+}
+
+@media only screen and (min-width: 768px) {
+  .form-input {
+    height: 56px;
+  }
+}
+
+.form-input:active,
+.form-input:hover {
+  border: 1px solid var(--green);
+  color: var(--green);
+}
+
+/* next rule for label animation is required */
+.form-input::placeholder {
+  color: transparent;
+}
+
+.form-input:focus ~ .form-label,
+.form-input:not(:placeholder-shown) ~ .form-label {
+  top: 8px;
+  font-size: 12px;
+  transform: translateY(-100%);
+  color: var(--green);
+  background-color: var(--white);
+}
+
+.form-label {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  transform: translateY(-100%);
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29em;
+  text-align: left;
+  color: var(--black);
+  transition-duration: 250ms;
+  transition-property: top, font-size;
+  transition-timing-function: var(--animation-func);
+}
+@media only screen and (min-width: 768px) {
+  .form-label {
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+}
+
+.form-wrapper-comment {
+  height: 94px;
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .form-wrapper-comment {
+    height: 104px;
+  }
+}
+
+.form-comment {
+  resize: none;
+  height: 100%;
+}
+.form-label-comment {
+  top: 32px;
+}
+/* #endregion contact-form  */
+
+/* #region teacher-option */
+.secondary-heading {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.333em;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: var(--black);
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+@media only screen and (min-width: 768px) {
+  .secondary-heading {
+    margin-top: 32px;
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+}
+
+.teacher-options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  width: 100px;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .teacher-options {
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+
+  .teacher-options label:not(:last-child) {
+    margin-right: 8px;
+  }
+}
+
+.teacher-options label {
+  cursor: pointer;
+}
+
+.teacher-options label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71em;
+  letter-spacing: -0.02em;
+  color: var(--black);
+}
+
+@media only screen and (min-width: 768px) {
+  .teacher-options label {
+    font-size: 18px;
+  }
+}
+
+/* #endregion teacher-option */
+
+/* #region send-button */
+.send-button {
+  background: var(--green);
+  color: var(--white);
+  width: 100%;
+  height: 52px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.71em;
+  text-align: center;
+  border: none;
+  margin-top: 40px;
+}
+.send-button:hover,
+.send-button:active {
+  background: var(--green);
+}
+@media only screen and (min-width: 768px) {
+  .send-button {
+    height: 60px;
+    padding: 0 102px;
+    margin-top: 32px;
+    font-size: 18px;
+    line-height: 1.56em;
+  }
+}
+.privacy-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33em;
+  text-align: left;
+  color: var(--black);
+  margin-top: 16px;
+}
+@media only screen and (min-width: 768px) {
+  .privacy-text {
+    font-size: 14px;
+    line-height: 1.71em;
+  }
+}
+
+.text-decoration {
+  text-decoration: underline;
+}
+/* #endregion send-button */
+
+/*#region Radio buttons animation */
+
+.radio-btn-animation {
+  --background: var(--white);
+  --radio: var(--light-green);
+  --radio-checked: var(--green);
+  --radio-size: 18px;
+  --border-radius: 10px;
+}
+
+.radio-btn-animation input[type='radio'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  height: var(--radio-size);
+  width: var(--radio-size);
+  outline: none;
+  margin: 0;
+  cursor: pointer;
+  border: 2px solid var(--radio);
+  background: transparent;
+  border-radius: 50%;
+  display: grid;
+  justify-self: end;
+  justify-items: center;
+  align-items: center;
+  overflow: hidden;
+  transition: border 0.5s ease;
+}
+
+@media only screen and (min-width: 768px) {
+  .radio-btn-animation input[type='radio'] {
+    transform: rotate(-90deg);
+  }
+}
+
+.radio-btn-animation input[type='radio']::before,
+.radio-btn-animation input[type='radio']::after {
+  content: '';
+  display: flex;
+  justify-self: center;
+  border-radius: 50%;
+}
+.radio-btn-animation input[type='radio']::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: var(--background);
+  z-index: 1;
+  opacity: var(--opacity, 1);
+}
+.radio-btn-animation input[type='radio']::after {
+  position: relative;
+  width: calc(100% / 1.5);
+  height: calc(100% / 1.5);
+  background: var(--radio-checked);
+  top: var(--y, 100%);
+  transition: top 0.5s cubic-bezier(0.48, 1.97, 0.5, 0.63);
+}
+.radio-btn-animation input[type='radio']:checked {
+  --radio: var(--radio-checked);
+}
+.radio-btn-animation input[type='radio']:checked::after {
+  --y: 0%;
+  -webkit-animation: stretch-animate 0.3s ease-out 0.17s;
+  animation: stretch-animate 0.3s ease-out 0.17s;
+}
+.radio-btn-animation input[type='radio']:checked::before {
+  --opacity: 0;
+}
+.radio-btn-animation input[type='radio']:checked ~ input[type='radio']::after {
+  --y: -100%;
+}
+.radio-btn-animation input[type='radio']:not(:checked)::before {
+  --opacity: 1;
+  transition: opacity 0s linear 0.5s;
+}
+
+@-webkit-keyframes stretch-animate {
+  0% {
+    transform: scale(1, 1);
+  }
+  28% {
+    transform: scale(1.15, 0.85);
+  }
+  50% {
+    transform: scale(0.9, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes stretch-animate {
+  0% {
+    transform: scale(1, 1);
+  }
+  28% {
+    transform: scale(1.15, 0.85);
+  }
+  50% {
+    transform: scale(0.9, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+/*#endregion Radio buttons animation */
