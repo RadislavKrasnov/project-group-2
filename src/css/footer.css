@@ -127,3 +127,15 @@
         margin-top: 32px;
     }
 }
+
+@media only screen and (min-width: 1280px) {
+    .footer-container {
+        padding-top: 64px;
+        padding-bottom: 23px;
+    }
+
+    .footer-bottom {
+        margin-top: 64px;
+        padding-top: 23px;
+    }
+}
