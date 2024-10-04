@@ -9,6 +9,7 @@
 
 /* Sections style */
 @import url('./header.css');
+@import url('./about-us.css');
 @import url('./reviews.css');
 @import url('./application-form.css');
 @import url('./our-lessons.css');
