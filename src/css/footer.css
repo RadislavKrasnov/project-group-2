@@ -1,4 +1,5 @@
 .page-footer {
+    margin-top: 80px;
     background-color: var(--black);
     color: var(--white);
 }
@@ -113,6 +114,10 @@
 }
 
 @media only screen and (min-width: 768px) {
+    .page-footer {
+        margin-top: 100px;
+    }
+
     .footer-container,
     .footer-bottom {
         display: flex;
@@ -137,6 +142,10 @@
 }
 
 @media only screen and (min-width: 1280px) {
+    .page-footer {
+        margin-top: 150px;
+    }
+
     .footer-container {
         padding-top: 64px;
         padding-bottom: 23px;

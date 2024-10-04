@@ -1,3 +1,7 @@
+.about-us {
+  margin-top: 80px;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 335px;
@@ -75,6 +79,10 @@
 /* #endregion */
 
 @media only screen and (min-width: 768px) {
+  .about-us {
+    margin-top: 100px;
+  }
+
   .grid-container {
     grid-template-columns: 336px 336px;
     grid-template-areas: 
@@ -101,6 +109,10 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .about-us {
+    margin-top: 96px;
+  }
+
   .grid-container {
     grid-template-columns: 325px 325px 310px;
     grid-template-areas: 

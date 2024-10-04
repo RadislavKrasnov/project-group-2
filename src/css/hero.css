@@ -1,3 +1,7 @@
+.hero {
+    margin-top: 28px;
+}
+
 .hero .hero-wrapper {
     position: relative;
     display: flex;
@@ -17,10 +21,6 @@
         background: linear-gradient(357.37deg, rgba(0, 0, 0, 0.4) 39.23%, rgba(0, 0, 0, 0) 66.28%),
         url(/img/mob_block@2x.jpg) 74% 0 / cover no-repeat;
     }
-}
-
-.hero .container {
-    padding: 0 20px;
 }
 
 h1.hero-title {
@@ -67,9 +67,10 @@ a.hero-btn:hover {
 }
 
 @media only screen and (min-width: 768px) {
-    .hero .container {
-        padding: 0;
+    .hero {
+        margin-top: 52px;
     }
+
     .arrow-down-btn {
         width: 48px;
         height: 48px;
@@ -87,18 +88,22 @@ a.hero-btn:hover {
         height: 957px;
         padding: 32px;
         background: linear-gradient(95.97deg, rgba(0, 0, 0, 0.4) 36.36%, rgba(0, 0, 0, 0) 51.43%),
-                url(/img/tab_block.jpg) center / cover no-repeat;
+                url(/img/tab_block.jpg) 100% 50% / cover no-repeat;
     }
 }
 
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .hero .hero-wrapper {
         background: linear-gradient(95.97deg, rgba(0, 0, 0, 0.4) 36.36%, rgba(0, 0, 0, 0) 51.43%),
-                url(/img/tab_block@2x.jpg) center / cover no-repeat;
+                url(/img/tab_block@2x.jpg) 100% 50% / cover no-repeat;
     }
 }
 
 @media only screen and (min-width: 1280px) {
+    .hero {
+        margin-top: 44px;
+    }
+
     h1.hero-title {
         font-size: 60px;
         width: 570px;
