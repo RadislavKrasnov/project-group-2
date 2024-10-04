@@ -12,6 +12,10 @@
     margin-top: 20px
 }
 
+.page-footer .logo {
+    color: var(--white);
+}
+
 .contact-list-item:not(:last-child) {
     margin-bottom: 16px;
 }
@@ -38,13 +42,13 @@
     display: block;
 }
 
-.page-nav-links a {
+.footer-nav a {
     color: var(--white);
     font-weight: 600;
     line-height: 1.2;
 }
 
-.page-nav-links li:not(:last-child) {
+.footer-nav li:not(:last-child) {
     margin-bottom: 20px;
 }
 
