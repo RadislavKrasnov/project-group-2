@@ -5,10 +5,6 @@ nav.page-nav {
     align-items: center;
 }
 
-.page-header .container {
-    padding: 17px 20px;
-}
-
 ul.page-nav-links {
     display: flex;
     gap: 20px;
@@ -72,6 +68,10 @@ a.media-item-link:hover {
 
 a.media-item-link:hover svg {
     fill: var(--green);
+}
+
+.page-header .desktop {
+    padding-top: 20px;
 }
 
 /* BURGER MENU */
