@@ -13,6 +13,14 @@
     max-width: 1024px;
   }
 }
+
+@media only screen and (min-width: 768px) {
+  .title-container-reviews {
+    width: 647px;
+    margin: 0 auto;
+  }
+}
+
 .title-reviews {
   font-size: 32px;
   font-weight: 700;
@@ -50,8 +58,7 @@
 .subtitle-reviews {
   margin-top: 16px;
   text-align: center;
-  color: var(--black);
-  opacity: 80%;
+  color: var(--black-80);
 }
 
 @media only screen and (min-width: 768px) {
@@ -148,8 +155,7 @@
 .reviews-text {
   margin-top: 20px;
   padding: 0 14px;
-  color: var(--black);
-  opacity: 80%;
+  color: var(--black-80);
 }
 
 @media only screen and (min-width: 768px) {
