@@ -96,7 +96,13 @@
 }
 .reviews-photo {
   border-radius: 50%;
+  transition: all 0.3s ease
 }
+
+.reviews-photo:hover {
+  transform: scale(1.05);
+}
+
 .reviews-description {
   display: flex;
   flex-direction: column;
