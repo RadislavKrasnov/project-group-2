@@ -18,6 +18,7 @@
     var(--green) 2.25%,
     var(--green-pseudo) 131.25%
   );
+  overflow: hidden;
 }
 
 .proposal-wrapper {

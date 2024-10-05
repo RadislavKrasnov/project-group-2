@@ -42,7 +42,7 @@
 }
 
 .lessons-card-item:nth-child(even) {
-  background-color: var(--dark-green);
+  background-color: var(--green);
   color: var(--white);
 }
 
