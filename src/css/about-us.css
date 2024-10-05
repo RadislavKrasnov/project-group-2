@@ -2,78 +2,83 @@
   margin-top: 80px;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 335px;
+@media only screen and (min-width: 768px) {
+  .about-us-subtitle {
+    max-width: 658px;
+  }
+}
 
-    grid-template-areas: 
+.grid-container {
+  display: grid;
+  grid-template-columns: 335px;
+
+  grid-template-areas:
     'uno'
     'tos'
     'tres'
     'quatro'
     'cell-img';
 
-    gap: 20px;
-    justify-content:center;
-    margin-bottom: 80px;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 80px;
 }
 
 .grid-item {
-    display: inline-grid;
+  display: inline-grid;
 }
 
 .cell-text {
-    background-color: var(--gray);
-    padding: 32px;
-    border-radius: 16px;
+  background-color: var(--gray);
+  padding: 32px;
+  border-radius: 16px;
 }
 
 .cell-num {
-    color: var(--green);
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 1.14; /* 114.286% */
-    letter-spacing: -0.02em;
-    margin-bottom: 16px;
+  color: var(--green);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.14; /* 114.286% */
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
 }
 
 .cell-desc {
-    color: var(--black);
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1.2; /* 120% */
-    letter-spacing: -0.02em;
+  color: var(--black);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2; /* 120% */
+  letter-spacing: -0.02em;
 }
 
-.cell-img{
-    background: url(../img/memoji.png) no-repeat
-    center/contain;
-    background-color: var(--green);
-    border-radius: 16px;
-    min-height: 313px;
-    background-size: 254px 211px;
+.cell-img {
+  background: url(../img/memoji.png) no-repeat center/contain;
+  background-color: var(--green);
+  border-radius: 16px;
+  min-height: 313px;
+  background-size: 254px 211px;
 }
 
 /* #region Grid areas */
 
 .uno {
-    grid-area: uno;
+  grid-area: uno;
 }
 
 .tos {
-    grid-area: tos;
+  grid-area: tos;
 }
 
 .tres {
-    grid-area: tres;
+  grid-area: tres;
 }
 
 .quatro {
-    grid-area: quatro;
+  grid-area: quatro;
 }
 
 .cell-img {
-    grid-area: cell-img;
+  grid-area: cell-img;
 }
 
 /* #endregion */
@@ -85,13 +90,12 @@
 
   .grid-container {
     grid-template-columns: 336px 336px;
-    grid-template-areas: 
-  'uno tos'
-  'tres quatro'
-  'cell-img cell-img';
+    grid-template-areas:
+      'uno tos'
+      'tres quatro'
+      'cell-img cell-img';
     gap: 32px;
     margin-bottom: 100px;
-
   }
 
   .cell-text,
@@ -99,12 +103,11 @@
     border-radius: 30px;
   }
 
-  .cell-img{
+  .cell-img {
     min-height: 243px;
-    background: url(../img/memoji@2x.png) no-repeat
-      center/contain;
+    background: url(../img/memoji@2x.png) no-repeat center/contain;
     background-size: 254px 211px;
-    background-color: var(--green); 
+    background-color: var(--green);
   }
 }
 
@@ -115,11 +118,9 @@
 
   .grid-container {
     grid-template-columns: 325px 325px 310px;
-    grid-template-areas: 
-  'uno tos cell-img'
-  'tres quatro cell-img';
+    grid-template-areas:
+      'uno tos cell-img'
+      'tres quatro cell-img';
     margin-bottom: 150px;
-
   }
 }
-
