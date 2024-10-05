@@ -18,6 +18,12 @@
   margin-bottom: 40px;
 }
 
+@media only screen and (min-width: 768px) {
+  .lessons-subtitle {
+    max-width: 665px;
+  }
+}
+
 .lessons-card-list {
   display: flex;
   align-items: center;

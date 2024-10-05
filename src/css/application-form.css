@@ -1,13 +1,18 @@
-@media only screen and (min-width: 768px) {
-  .title-container-application {
-    width: 586px;
-    margin: 0 auto;
+@media only screen and (min-width: 1280px) {
+  .container-application {
+    max-width: 1024px;
+    padding: 0;
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .application-subtitle {
+    max-width: 586px;
+  }
+}
 @media only screen and (min-width: 1280px) {
-  .title-container-application {
-    width: 709px;
+  .application-subtitle {
+    max-width: 709px;
   }
 }
 
@@ -30,20 +35,6 @@
 @media only screen and (min-width: 768px) {
   .decoration-underline::before {
     height: 20px;
-  }
-}
-
-.main-subtitle {
-  text-align: center;
-  color: var(--black-80);
-  margin-top: 16px;
-}
-@media only screen and (min-width: 768px) {
-  .main-subtitle {
-    padding: 0 59px;
-    font-size: 18px;
-    line-height: 1.67;
-    color: var(--black-50);
   }
 }
 
@@ -151,9 +142,10 @@
     padding: 0;
   }
 }
-.form-wrapper {
-  position: relative;
+.input-wrapper {
   width: 100%;
+  margin-bottom: 18px;
+  position: relative;
 }
 
 .form-input {
@@ -166,7 +158,6 @@
   height: 50px;
   border-radius: 12px;
   border: 1px solid var(--black-10);
-  margin-bottom: 18px;
   padding: 16px 18px;
 }
 
@@ -179,7 +170,7 @@
 .form-input:active,
 .form-input:hover {
   border: 1px solid var(--dark-green);
-  color: var(--dark-green);
+  /* color: var(--dark-green); */
 }
 
 /* next rule for label animation is required */
@@ -196,17 +187,34 @@
   background-color: var(--white);
 }
 
+.form-input:not(:placeholder-shown):not(:focus):invalid {
+  outline: 1px solid rgb(227, 108, 108);
+  animation-name: headShake;
+  animation-duration: 1000ms;
+  animation-iteration-count: 1;
+  border: none;
+}
+
+.form-input:not(:placeholder-shown):not(:focus):invalid:hover {
+  box-shadow: 0px 0px 4px 0px rgb(227, 108, 108);
+}
+
+.form-input:not(:placeholder-shown):not(:focus):invalid ~ .form-label {
+  color: rgb(227, 108, 108);
+}
+
 .form-label {
   position: absolute;
   left: 18px;
   top: 50%;
-  transform: translateY(-100%);
+  transform: translateY(-50%);
   line-height: 1.29;
   text-align: left;
   color: var(--black);
   transition-duration: 250ms;
   transition-property: top, font-size;
   transition-timing-function: var(--animation-func);
+  padding: 0 8px;
 }
 @media only screen and (min-width: 768px) {
   .form-label {
@@ -215,12 +223,12 @@
   }
 }
 
-.form-wrapper-comment {
+.input-wrapper-comment {
   height: 94px;
   width: 100%;
 }
 @media only screen and (min-width: 768px) {
-  .form-wrapper-comment {
+  .input-wrapper-comment {
     height: 104px;
   }
 }
