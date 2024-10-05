@@ -60,10 +60,22 @@ a.hero-btn:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color var(--transition-slow);
 }
 
 .arrow-down-btn svg{
     fill: var(--green);
+    transition: fill var(--transition-slow);
+}
+
+.arrow-down-btn:hover,
+.arrow-down-btn:active {
+    background-color: var(--green);
+}
+
+.arrow-down-btn:hover svg,
+.arrow-down-btn:active svg {
+    fill: var(--white);
 }
 
 @media only screen and (min-width: 768px) {
