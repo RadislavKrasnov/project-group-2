@@ -17,7 +17,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <script type="module" crossorigin src="/project-group-2/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-group-2/assets/index-D_nFKDuP.css">
+    <link rel="stylesheet" crossorigin href="/project-group-2/assets/index-Cf52HFRY.css">
   </head>
   <body>
     <header class="page-header">
@@ -86,16 +86,16 @@
       <section class="section hero">
   <div class="container">
     <div class="hero-wrapper">
-        <h1 class="hero-title">
-            Discover the joy of learning <span class="title-green">English</span> with
-            us!
-          </h1>
-          <a href="#" class="link hero-btn">Leave an application</a>
-          <a class="arrow-down-btn" href="#">
-            <svg class="media-icon" width="24" height="24">
-              <use href="/project-group-2/assets/sprite-CPeSfmjJ.svg#icon-arrow-down"></use>
-            </svg>
-          </a>
+      <h1 class="hero-title">
+        Discover the joy of learning
+        <span class="title-green">English</span> with us!
+      </h1>
+      <a href="#application" class="link hero-btn">Leave an application</a>
+      <a class="arrow-down-btn" href="#footer">
+        <svg class="media-icon" width="24" height="24">
+          <use href="/project-group-2/assets/sprite-CPeSfmjJ.svg#icon-arrow-down"></use>
+        </svg>
+      </a>
     </div>
   </div>
 </section>
@@ -299,40 +299,65 @@
   </section>
 
       <section class="our-teachers section">
-    <div class="container">
-      <div class='our-teachers__wrapper'>
-        <h2 class="lessons-title">
-          Meet our <span class="decoration-underline">teachers</span>
-        </h2>
-        <div class='our-teachers__description main-subtitle'>
-          Discover our team of dedicated educators, committed to guiding you on your journey to English proficiency with personalized and engaging instruction
-        </div>
-        <ul class='our-teachers__list'>
-          <li class='our-teachers__item'>
-            <div class='our-teachers__item-img'><img src='../img/teachers/1.jpg' alt=''></div>
-            <div class='our-teachers__item-name'>Maria</div>
-            <div class='our-teachers__item-description'>A seasoned linguist and our primary specialist in beginner-level instruction, Maria brings warmth and patience to every class</div>
-          </li>
-          <li class='our-teachers__item'>
-            <div class='our-teachers__item-img'><img src='../img/teachers/2.jpg' alt=''></div>
-            <div class='our-teachers__item-name'>Artem</div>
-            <div class='our-teachers__item-description'>With his innovative teaching techniques and a focus on interactive learning, Artem excels in keeping students engaged and motivated</div>
-          </li>
-          <li class='our-teachers__item'>
-            <div class='our-teachers__item-img'><img src='../img/teachers/3.jpg' alt=''></div>
-            <div class='our-teachers__item-name'>Ilona</div>
-            <div class='our-teachers__item-description'>A specialist in advanced English, Ilona provides intensive instruction, ensuring students gain confidence in complex language tasks</div>
-          </li>
-          <li class='our-teachers__item'>
-            <div class='our-teachers__item-img'><img src='../img/teachers/4.jpg' alt=''></div>
-            <div class='our-teachers__item-name'>Volodymyr</div>
-            <div class='our-teachers__item-description'>Our expert in English for specific purposes, Volodymyr tailors his approach to meet individual career and industry-specific language needs</div>
-          </li>
-        </ul>
+  <div class="container">
+    <div class="our-teachers__wrapper">
+      <h2 class="lessons-title">
+        Meet our <span class="decoration-underline">teachers</span>
+      </h2>
+      <div class="our-teachers__description main-subtitle">
+        Discover our team of dedicated educators, committed to guiding you on
+        your journey to English proficiency with personalized and engaging
+        instruction
       </div>
+      <ul class="our-teachers__list">
+        <li class="our-teachers__item">
+          <div class="our-teachers__item-img">
+            <img src="/project-group-2/assets/1-C7Rzr22t.jpg" alt="" />
+          </div>
+          <div class="our-teachers__item-name">Maria</div>
+          <div class="our-teachers__item-description">
+            A seasoned linguist and our primary specialist in beginner-level
+            instruction, Maria brings warmth and patience to every class
+          </div>
+        </li>
+        <li class="our-teachers__item">
+          <div class="our-teachers__item-img">
+            <img src="/project-group-2/assets/2-DQ9oXEF1.jpg" alt="" />
+          </div>
+          <div class="our-teachers__item-name">Artem</div>
+          <div class="our-teachers__item-description">
+            With his innovative teaching techniques and a focus on interactive
+            learning, Artem excels in keeping students engaged and motivated
+          </div>
+        </li>
+        <li class="our-teachers__item">
+          <div class="our-teachers__item-img">
+            <img src="/project-group-2/assets/3-BtVszw9T.jpg" alt="" />
+          </div>
+          <div class="our-teachers__item-name">Ilona</div>
+          <div class="our-teachers__item-description">
+            A specialist in advanced English, Ilona provides intensive
+            instruction, ensuring students gain confidence in complex language
+            tasks
+          </div>
+        </li>
+        <li class="our-teachers__item">
+          <div class="our-teachers__item-img">
+            <img src="/project-group-2/assets/4-xB96tRys.jpg" alt="" />
+          </div>
+          <div class="our-teachers__item-name">Volodymyr</div>
+          <div class="our-teachers__item-description">
+            Our expert in English for specific purposes, Volodymyr tailors his
+            approach to meet individual career and industry-specific language
+            needs
+          </div>
+        </li>
+      </ul>
     </div>
+  </div>
 </section>
-      <section class="section section-application">
+
+      <section class="section section-application" id="application">
   <!-- #region contact-form-title -->
   <div class="container">
     <div class="title-container-application">
@@ -401,6 +426,7 @@
             id="phone"
             name="phone"
             pattern="[0-9]{10}"
+            inputmode="numeric"
             title="Enter a 10-digit phone number."
             required
             placeholder="Phone"
@@ -628,43 +654,46 @@
 </div>
     </main>
 
-    <footer class="page-footer">
-    <div class="container footer-container">
-        <div class="footer-info">
-            <a class="link logo" href="./index.html">english<span class="green-color">excellence</span>.</a>
+    <footer class="page-footer" id="footer">
+  <div class="container footer-container">
+    <div class="footer-info">
+      <a class="link logo" href="./index.html">english<span class="green-color">excellence</span>.</a>
 
-            <address class="footer-contacts">
-                <ul class="contacts-list">
-                    <li class="contact-list-item">
-                        <span class="contact-lable">Phone number:</span><br/>
-                        <a class="contact-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
-                    </li>
-                    <span class="contact-lable">Address:</span><br/>
-                    <li class="contact-list-item">32a M. Bazhana ave</li>
-                </ul>
-            </address>
-        </div>
-        <div class="footer-nav">
-            <ul class="page-nav-links">
-                <li>
-                  <a class="link" href="#">About us</a>
-                </li>
-                <li>
-                  <a class="link" href="#">Our lessons</a>
-                </li>
-                <li>
-                  <a class="link" href="#">Teachers</a>
-                </li>
-                <li>
-                  <a class="link" href="#">Reviews</a>
-                </li>
-                <li>
-                  <a class="link" href="#">Contact us</a>
-                </li>
-              </ul>
-        </div>
-        <div class="footer-socials">
-            <ul class="socials media-icons">
+      <address class="footer-contacts">
+        <ul class="contacts-list">
+          <li class="contact-list-item">
+            <span class="contact-lable">Phone number:</span><br />
+            <a class="contact-link" href="tel:+380684439426"
+              >+380 (68) 443-94-26</a
+            >
+          </li>
+          <span class="contact-lable">Address:</span
+          ><br />
+          <li class="contact-list-item">32a M. Bazhana ave</li>
+        </ul>
+      </address>
+    </div>
+    <div class="footer-nav">
+      <ul class="page-nav-links">
+        <li>
+          <a class="link" href="#">About us</a>
+        </li>
+        <li>
+          <a class="link" href="#">Our lessons</a>
+        </li>
+        <li>
+          <a class="link" href="#">Teachers</a>
+        </li>
+        <li>
+          <a class="link" href="#">Reviews</a>
+        </li>
+        <li>
+          <a class="link" href="#">Contact us</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-socials">
+      <ul class="socials media-icons">
   <li class="media-item">
     <a class="media-item-link" href="https://facebook.com">
       <svg class="media-icon" width="28" height="28">
@@ -691,19 +720,21 @@
   </li>
 </ul>
 
-        </div>
-        <div class="footer-bottom">
-            <span class="copyright">©2023  English Excellence. All rights reserved.</span>
-            <ul class="footer-links">
-                <li>
-                    <a class="link" href="#">Privacy Policy</a>
-                </li>
-                <li>
-                    <a class="link" href="#">Terms of Service</a>
-                </li>
-            </ul>
-        </div>
     </div>
+    <div class="footer-bottom">
+      <span class="copyright"
+        >©2023 English Excellence. All rights reserved.</span
+      >
+      <ul class="footer-links">
+        <li>
+          <a class="link" href="#">Privacy Policy</a>
+        </li>
+        <li>
+          <a class="link" href="#">Terms of Service</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </footer>
 
 
