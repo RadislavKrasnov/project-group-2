@@ -7,6 +7,7 @@
   --white: #fff;
   --green-pseudo: #bee8cc;
   --dark-green: #38ae5f;
+  --silver: #D0D0D1;
 
   /* Opacity for black color */
   --black-50: #12141780;
@@ -19,6 +20,7 @@
 
   /* Animations */
   --animation-func: cubic-bezier(0.075, 0.82, 0.165, 1);
+  --transition-slow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 *,
