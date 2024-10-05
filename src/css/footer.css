@@ -116,8 +116,8 @@
     gap: 18px;
 }
 
-.page-nav-links .link:hover,
-.page-nav-links .link:focus,
+.footer-nav .page-nav-links .link:hover,
+.footer-nav .page-nav-links .link:focus,
 .footer-links .link:hover,
 .footer-links .link:focus {
     color: #4dc274;

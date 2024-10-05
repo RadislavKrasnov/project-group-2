@@ -64,11 +64,11 @@ a.media-item-link {
     transition: .5s var(--animation-func);
 }
 
-a.media-item-link:hover {
+nav.desktop .media-item-link:hover {
     border: 1px solid #4DC2741A;
 }
 
-a.media-item-link:hover svg {
+nav.desktop .media-item-link:hover svg {
     fill: var(--green);
 }
 
@@ -152,6 +152,10 @@ a.burger svg {
 
 .mobile-menu .media-item-link {
     border: 1px solid #ffffff0a;
+}
+
+.mobile-menu .media-item-link:active {
+    border: 1px solid #fff;
 }
 
 .close-section {

@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
+    overflow: hidden;
     gap: 32px;
     height: 709px;
     padding: 72px 20px ;
