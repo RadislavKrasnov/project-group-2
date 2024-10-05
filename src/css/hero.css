@@ -115,7 +115,7 @@ a.hero-btn:hover {
 
 @media only screen and (min-width: 1280px) {
     .hero {
-        margin-top: 44px;
+        margin-top: 36px;
     }
 
     h1.hero-title {
@@ -128,6 +128,7 @@ a.hero-btn:hover {
         height: 629px;
         background: linear-gradient(95.97deg, rgba(0, 0, 0, 0.4) 36.36%, rgba(0, 0, 0, 0) 51.43%),
                 url(/img/block.jpg) center / cover no-repeat;
+        padding: 0 64px;
     }
 }
 
