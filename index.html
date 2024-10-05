@@ -18,7 +18,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <script type="module" crossorigin src="/project-group-2/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-group-2/assets/index-BLuMo3wv.css">
+    <link rel="stylesheet" crossorigin href="/project-group-2/assets/index-BK2hOmih.css">
   </head>
   <body>
     <header class="page-header">
@@ -103,17 +103,16 @@
 
       <section class="about-us section" id="about-us">
   <div class="container">
-    <div class="title-container">
-      <h2 class="section-title">
-        About <span class="decoration-underline">Us</span>
-        <!-- Використав стиль Тосі, у алекса чогось відвалився афтер -->
-      </h2>
-      <p class="lessons-subtext">
-        <!-- Використав стиль Алекса, бо правильне обмеження по ширині (а у Тосі чогось ні) -->
-        We are dedicated to providing engaging and effective English language
-        courses in a supportive and stimulating learning environment
-      </p>
-    </div>
+    <h2 class="section-title">
+      About <span class="decoration-underline">Us</span>
+      <!-- Використав стиль Тосі, у алекса чогось відвалився афтер -->
+    </h2>
+    <p class="section-subtitle about-us-subtitle lessons-subtext">
+      <!-- Використав стиль Алекса, бо правильне обмеження по ширині (а у Тосі чогось ні) -->
+      We are dedicated to providing engaging and effective English language
+      courses in a supportive and stimulating learning environment
+    </p>
+
     <div class="grid-container">
       <div
         class="grid-item cell-text uno wow animate__animated animate__fadeInLeftBig"
@@ -160,10 +159,10 @@
 
       <section class="our-lessons section" id="our-lessons">
   <div class="title-container container">
-    <h2 class="lessons-title">
-      Our <span class="text-element">lessons</span>
+    <h2 class="section-title lessons-title">
+      Our <span class="decoration-underline">lessons</span>
     </h2>
-    <p class="lessons-subtext">
+    <p class="section-subtitle lessons-subtext lessons-subtitle">
       Our lessons are carefully structured and interactive, designed to promote
       rapid language acquisition through practical tasks and real-world
       scenarios.
@@ -302,14 +301,16 @@
       <section class="our-teachers section">
   <div class="container">
     <div class="our-teachers__wrapper">
-      <h2 class="lessons-title">
+      <h2 class="section-title lessons-title">
         Meet our <span class="decoration-underline">teachers</span>
       </h2>
-      <div class="our-teachers__description main-subtitle">
+      <p
+        class="section-subtitle our-teachers__description our-teachers-subtitle"
+      >
         Discover our team of dedicated educators, committed to guiding you on
         your journey to English proficiency with personalized and engaging
         instruction
-      </div>
+      </p>
       <ul class="our-teachers__list">
         <li class="our-teachers__item">
           <div class="our-teachers__item-img">
@@ -376,21 +377,20 @@
 
       <section class="section section-application" id="application">
   <!-- #region contact-form-title -->
-  <div class="container">
-    <div class="title-container-application">
-      <h2
-        class="section-title wow animate__pulse"
-        data-wow-delay="0.9s"
-        data-wow-duration="1s"
-        data-wow-iteration="1"
-      >
-        Leave an <span class="decoration-underline">application</span>
-      </h2>
-      <p class="main-subtitle">
-        Please use the form below to contact us. Enter your name, email, and
-        message and we'll get back to you shortly.
-      </p>
-    </div>
+  <div class="container container-application">
+    <h2
+      class="section-title wow animate__pulse"
+      data-wow-delay="0.9s"
+      data-wow-duration="1s"
+      data-wow-iteration="1"
+    >
+      Leave an <span class="decoration-underline">application</span>
+    </h2>
+    <p class="section-subtitle application-subtitle">
+      Please use the form below to contact us. Enter your name, email, and
+      message and we'll get back to you shortly.
+    </p>
+
     <!-- #endregion contact-form-title -->
 
     <div class="form-boxing">
@@ -410,20 +410,20 @@
 
       <!-- #region contact-form -->
       <form class="contact-form" name="contact_form">
-        <div class="form-wrapper">
+        <div class="input-wrapper">
           <input
             class="form-input"
             type="text"
             id="name"
             name="name"
-            pattern="[A-Za-z\s]+"
+            pattern="^[a-zA-Zа-щА-ЩЬьЮюЯяІіЇїЄєҐґ'’\- ]+$"
             title="Only letters are allowed"
             required
             placeholder="Name"
           />
           <label class="form-label" for="name">Name</label>
         </div>
-        <div class="form-wrapper">
+        <div class="input-wrapper">
           <input
             class="form-input"
             type="email"
@@ -436,7 +436,7 @@
           />
           <label class="form-label" for="email">Email</label>
         </div>
-        <div class="form-wrapper">
+        <div class="input-wrapper">
           <input
             class="form-input"
             type="tel"
@@ -450,7 +450,7 @@
           />
           <label class="form-label" for="phone">Phone</label>
         </div>
-        <div class="form-wrapper form-wrapper-comment">
+        <div class="input-wrapper input-wrapper-comment">
           <textarea
             class="form-input form-comment"
             name="comment"
@@ -517,20 +517,19 @@
 
       <section class="section">
   <div class="container container-reviews">
-    <div class="title-container-reviews">
-      <h2
-        class="title-reviews wow animate__pulse"
-        data-wow-delay="0.9s"
-        data-wow-duration="1s"
-        data-wow-iteration="1"
-      >
-        What our <span class="decoration-underline">students</span> say
-      </h2>
-      <p class="subtitle-reviews">
-        Hear from our students about their learning journey with us, as they
-        share their experiences, progress, and the transformative impact
-      </p>
-    </div>
+    <h2
+      class="section-title wow animate__pulse"
+      data-wow-delay="0.9s"
+      data-wow-duration="1s"
+      data-wow-iteration="1"
+    >
+      What our <span class="decoration-underline">students</span> say
+    </h2>
+    <p class="section-subtitle reviews-subtitle">
+      Hear from our students about their learning journey with us, as they share
+      their experiences, progress, and the transformative impact
+    </p>
+
     <ul class="reviews-list">
       <li
         class="reviews-list-item wow animate__animated animate__fadeInLeftBig"
@@ -560,7 +559,7 @@
         </div>
       </li>
       <li
-        class="reviews-list-item wow animate__animated animate__fadeInLeftBig"
+        class="reviews-list-item wow animate__animated animate__fadeInLeftBig visually-hidden-tab"
         data-wow-delay="0.7s"
         data-wow-duration="1s"
       >
@@ -587,7 +586,7 @@
         </div>
       </li>
       <li
-        class="reviews-list-item wow animate__animated animate__fadeInLeftBig"
+        class="reviews-list-item wow animate__animated animate__fadeInLeftBig visually-hidden-desctop"
         data-wow-delay="0.5s"
         data-wow-duration="1s"
       >
