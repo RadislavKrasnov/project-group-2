@@ -509,7 +509,7 @@
     max-width: 306px;
     color: var(--white);
     background-color: var(--green);
-    transition: background-color var(--transition-dur-and-func);
+    transition: 1s var(--animation-func);
   }
 
   .proposal-pic {
