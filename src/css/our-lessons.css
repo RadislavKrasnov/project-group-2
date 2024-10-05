@@ -109,10 +109,10 @@
   justify-content: center;
   align-items: center;
   border-radius: 12px;
-  background: var(--dark-green);
+  background: var(--green);
   margin: 0 auto;
   display: flex;
-  transition: var(--transition-dur-and-func);
+  transition: 1s var(--animation-func);
 }
 
 .lessons-card-button:focus,
