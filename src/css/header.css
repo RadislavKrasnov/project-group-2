@@ -1,3 +1,5 @@
+
+
 nav.page-nav {
     display: flex;
     width: 100%;
@@ -192,5 +194,8 @@ a.burger svg {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .header-container {
+        padding: 0 64px;
     }
 }
