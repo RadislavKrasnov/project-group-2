@@ -22,9 +22,12 @@
 }
 
 .contact-lable {
-    color: rgba(255, 255, 255, 0.60);
+    display: block;
+    margin-bottom: 4px;
+    color: rgba(202, 123, 123, 0.6);
     font-style: normal;
     letter-spacing: 0.02em;
+    font-weight: 400;
 }
 
 .contact-list-item, .contact-link {
@@ -32,7 +35,6 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
-    line-height: 1.28;
 }
 
 .contact-link {
@@ -43,10 +45,17 @@
     display: block;
 }
 
+.contact-lable, 
+.contact-list-item, 
+.contact-link,
+.footer-nav a, 
+.list-item {
+    line-height: 1.28;
+}
+
 .footer-nav a {
     color: var(--white);
     font-weight: 600;
-    line-height: 1.2;
 }
 
 .footer-nav li:not(:last-child) {
@@ -63,8 +72,13 @@
     gap: 12px
 }
 
+.footer-socials .media-item-link svg,
+.footer-socials .media-item-link {
+    transition: border var(--transition-slow), fill var(--transition-slow);
+}
+
 .footer-socials .media-icon {
-    fill: var(--white);
+    fill: var(--silver);
 }
 
 .footer-socials .media-item:hover .media-icon,
@@ -100,6 +114,18 @@
 
 .footer-links {
     gap: 18px;
+}
+
+.page-nav-links .link:hover,
+.page-nav-links .link:focus,
+.footer-links .link:hover,
+.footer-links .link:focus {
+    color: #4dc274;
+}
+
+.page-nav-links .link,
+.footer-links .link {
+    transition: color var(--transition-slow); 
 }
 
 @media only screen and (max-width: 767px) {
