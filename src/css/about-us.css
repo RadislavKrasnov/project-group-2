@@ -10,7 +10,7 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: 335px;
+  width: 100%;
 
   grid-template-areas:
     'uno'
