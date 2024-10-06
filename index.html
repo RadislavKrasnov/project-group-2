@@ -2,15 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <link rel="icon" href="/project-group-2/favicon.ico" sizes="any">
+    <meta
+      name="description"
+      content="This is a website for English lessons. where you can view information about us. Our lessons and prices. our teachers read reviews and also leave an application for training."
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/project-group-2/favicon.ico" sizes="any" />
     <link rel="icon" type="image/svg+xml" href="/project-group-2/favicon.svg" />
-    <link rel="apple-touch-icon" href="/project-group-2/apple-touch-icon.png">
-    <link rel="manifest" href="/project-group-2/site.webmanifest">
-    <meta name="theme-color" content="#FFFFFF">
+    <link rel="apple-touch-icon" href="/project-group-2/apple-touch-icon.png" />
+    <link rel="manifest" href="/project-group-2/site.webmanifest" />
+    <meta name="theme-color" content="#FFFFFF" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>English Excellence &copy; Dev Jedi</title>
     <link
@@ -18,9 +28,15 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <script type="module" crossorigin src="/project-group-2/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-group-2/assets/index-NqIkJGz3.css">
+    <link rel="stylesheet" crossorigin href="/project-group-2/assets/index-ClZDRSmM.css">
   </head>
   <body>
+    <!-- Skip button for accessibility -->
+    <div class="visually-hidden">
+      <a href="#main-content" aria-label="Skip to content" role="link"
+        >Skip to content</a
+      >
+    </div>
     <header class="page-header">
   <div class="container">
     <div class="header-container">
@@ -75,7 +91,12 @@
     data-wow-delay="1.2s"
     data-wow-duration="0.3s"
   >
-  <a class="media-item-link" href="https://www.facebook.com/goITclub/" target="_blank">
+    <a
+      class="media-item-link"
+      href="https://www.facebook.com/goITclub/"
+      target="_blank"
+      aria-label="go to the Facebook site"
+    >
       <svg class="media-icon" width="28" height="28">
     <use href="/project-group-2/assets/sprite-CPeSfmjJ.svg#icon-facebook"></use>
 </svg>
@@ -87,7 +108,12 @@
     data-wow-delay="1.4s"
     data-wow-duration="0.3s"
   >
-  <a class="media-item-link" href="https://www.instagram.com/goitclub/" target="_blank">
+    <a
+      class="media-item-link"
+      href="https://www.instagram.com/goitclub/"
+      target="_blank"
+      aria-label="go to the Instagram site"
+    >
       <svg class="media-icon" width="28" height="28">
     <use href="/project-group-2/assets/sprite-CPeSfmjJ.svg#icon-instagram"></use>
 </svg>
@@ -99,7 +125,12 @@
     data-wow-delay="1.6s"
     data-wow-duration="0.3s"
   >
-  <a class="media-item-link" href="https://www.youtube.com/c/GoIT" target="_blank">
+    <a
+      class="media-item-link"
+      href="https://www.youtube.com/c/GoIT"
+      target="_blank"
+      c
+    >
       <svg class="media-icon" width="28" height="28">
     <use href="/project-group-2/assets/sprite-CPeSfmjJ.svg#icon-youtube"></use>
 </svg>
@@ -108,7 +139,7 @@
   </li>
 </ul>
 
-  <a class="burger" id="burger" href="#">
+  <a class="burger" id="burger" href="#" aria-label="Open the navigation menu">
     <svg class="media-icon" width="40" height="28">
     <use href="/project-group-2/assets/sprite-CPeSfmjJ.svg#icon-burger"></use>
 </svg>
@@ -121,7 +152,7 @@
 </header>
 
 
-    <main>
+    <main id="main-content">
       <!-- Loads the specified .html file -->
       <section class="section hero">
   <div class="container">
@@ -136,6 +167,7 @@
       </h1>
       <a
         href="#application"
+        aria-label="Leave an application"
         class="link hero-btn wow animate__animated animate__fadeInUp"
         data-wow-delay="1.8s"
         data-wow-duration="0.3s"
@@ -146,6 +178,7 @@
         data-wow-delay="2s"
         data-wow-duration="0.3s"
         href="#footer"
+        aria-label="scroll down to the footer"
       >
         <svg class="media-icon" width="24" height="24">
           <use href="/project-group-2/assets/sprite-CPeSfmjJ.svg#icon-arrow-down"></use>
@@ -172,47 +205,47 @@
       courses in a supportive and stimulating learning environment
     </p>
 
-    <div class="grid-container">
-      <div
+    <ol class="grid-container">
+      <li
         class="grid-item cell-text uno wow animate__animated animate__fadeInLeftBig"
         data-wow-delay="0.9s"
         data-wow-duration="1s"
       >
         <p class="cell-num">01</p>
         <p class="cell-desc">Expert, innovative teaching staff</p>
-      </div>
-      <div
+      </li>
+      <li
         class="grid-item cell-text tos wow animate__animated animate__fadeInLeftBig"
         data-wow-delay="0.7s"
         data-wow-duration="1s"
       >
         <p class="cell-num">02</p>
         <p class="cell-desc">Wide range of course levels and options</p>
-      </div>
-      <div
+      </li>
+      <li
         class="grid-item cell-text tres wow animate__animated animate__fadeInLeftBig"
         data-wow-delay="0.5s"
         data-wow-duration="1s"
       >
         <p class="cell-num">03</p>
         <p class="cell-desc">Multicultural learning environment</p>
-      </div>
-      <div
+      </li>
+      <li
         class="grid-item cell-text quatro wow animate__animated animate__fadeInLeftBig"
         data-wow-delay="0.3s"
         data-wow-duration="1s"
       >
         <p class="cell-num">04</p>
         <p class="cell-desc">Comprehensive language support services</p>
-      </div>
-      <div
+      </li>
+      <li
         class="grid-item cell-img wow animate__animated animate__fadeInLeftBig"
         data-wow-delay="0.1s"
         data-wow-duration="1s"
       >
         <!-- <img src="../img/memoji.jpg" /> -->
-      </div>
-    </div>
+      </li>
+    </ol>
   </div>
 </section>
 
@@ -248,6 +281,7 @@
           data-target="leave-section"
           class="lessons-card-button lessons-card-button-text scroll-button"
           href="#contact-us"
+          aria-label="Leave an application"
           >Leave an application</a
         >
       </li>
@@ -268,6 +302,7 @@
           data-target="leave-section"
           class="lessons-card-button lessons-card-button-even scroll-button"
           href="#contact-us"
+          aria-label="Leave an application"
           >Leave an application</a
         >
       </li>
@@ -288,6 +323,7 @@
           data-target="leave-section"
           class="lessons-card-button scroll-button"
           href="#contact-us"
+          aria-label="Leave an application"
           >Leave an application</a
         >
       </li>
@@ -348,6 +384,7 @@
           data-target="leave-section"
           href="#application"
           class="proposal-button proposal-button-text scroll-button"
+          aria-label="Leave an application"
         >
           Leave an application
         </a>
@@ -357,6 +394,7 @@
         srcset="/project-group-2/assets/books-2x-Dc9hSoed.png 2x"
         src="/project-group-2/assets/books-1x-ZFTpd7Pn.png"
         alt="books on top of each other"
+        loading="lazy"
       />
     </div>
   </div>
@@ -387,6 +425,7 @@
               srcset="/project-group-2/assets/1-C7Rzr22t.jpg 1x, /project-group-2/assets/1@2x-D2xnV55_.jpg 2x"
               src="/project-group-2/assets/1-C7Rzr22t.jpg"
               alt="Picture of the teacher"
+              loading="lazy"
             />
           </div>
           <div class="our-teachers__item-name">Maria</div>
@@ -401,6 +440,7 @@
               srcset="/project-group-2/assets/2-DQ9oXEF1.jpg 1x, /project-group-2/assets/2@2x-D4wg4bOj.jpg 2x"
               src="/project-group-2/assets/2-DQ9oXEF1.jpg"
               alt="Picture of the teacher"
+              loading="lazy"
             />
           </div>
           <div class="our-teachers__item-name">Artem</div>
@@ -415,6 +455,7 @@
               srcset="/project-group-2/assets/3-BtVszw9T.jpg 1x, /project-group-2/assets/3@2x-3z3PH5_V.jpg 2x"
               src="/project-group-2/assets/3-BtVszw9T.jpg"
               alt="Picture of the teacher"
+              loading="lazy"
             />
           </div>
           <div class="our-teachers__item-name">Ilona</div>
@@ -430,6 +471,7 @@
               srcset="/project-group-2/assets/4-xB96tRys.jpg 1x, /project-group-2/assets/4@2x-_wWPplPr.jpg 2x"
               src="/project-group-2/assets/4-xB96tRys.jpg"
               alt="Picture of the teacher"
+              loading="lazy"
             />
           </div>
           <div class="our-teachers__item-name">Volodymyr</div>
@@ -574,8 +616,9 @@
         <button class="send-button">Send</button>
         <p class="privacy-text">
           By clicking on “Send” button, you agree to our
-          <a class="text-decoration" href="#">Privacy Policy</a>, and allow
-          Promodo to use this information for marketing purposes.
+          <a class="text-decoration" href="#" aria-label="send your data"
+            >Privacy Policy</a
+          >, and allow Promodo to use this information for marketing purposes.
         </p>
         <!-- #endregion send-button -->
       </form>
@@ -689,57 +732,89 @@
 </section>
 
       <div class="mobile-menu">
-    <div class="overlay"></div>
-    <nav class="page-nav-mobile">
-      <div class="close-section">
-        <a class="close" id="close" href="#">
-          <svg class="media-icon" width="32" height="32">
-            <use href="/project-group-2/assets/sprite-CPeSfmjJ.svg#icon-close"></use>
+  <div class="overlay"></div>
+  <nav class="page-nav-mobile">
+    <div class="close-section">
+      <a class="close" id="close" href="#" aria-label="close mobile menu">
+        <svg class="media-icon" width="32" height="32">
+          <use href="/project-group-2/assets/sprite-CPeSfmjJ.svg#icon-close"></use>
+        </svg>
+      </a>
+    </div>
+    <ul class="page-nav-links">
+      <li>
+        <a class="link" href="#about" aria-label="go to the section About us"
+          >About us</a
+        >
+      </li>
+      <li>
+        <a
+          class="link"
+          href="#lessons"
+          aria-label="go to the section Our lessons"
+          >Our lessons</a
+        >
+      </li>
+      <li>
+        <a class="link" href="#teachers" aria-label="go to the section Teachers"
+          >Teachers</a
+        >
+      </li>
+      <li>
+        <a class="link" href="#reviews" aria-label="go to the section Reviews"
+          >Reviews</a
+        >
+      </li>
+      <li>
+        <a
+          class="link"
+          href="#application"
+          aria-label="go to the section Contact us"
+          >Contact us</a
+        >
+      </li>
+    </ul>
+    <ul class="socials media-icons">
+      <li class="media-item">
+        <a
+          class="media-item-link"
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+          aria-label="transition to the site facebook"
+        >
+          <svg class="media-icon" width="28" height="28">
+            <use href="/project-group-2/assets/sprite-CPeSfmjJ.svg#icon-facebook"></use>
           </svg>
         </a>
-      </div>
-      <ul class="page-nav-links">
-        <li>
-          <a class="link" href="#about">About us</a>
-        </li>
-        <li>
-          <a class="link" href="#lessons">Our lessons</a>
-        </li>
-        <li>
-          <a class="link" href="#teachers">Teachers</a>
-        </li>
-        <li>
-          <a class="link" href="#reviews">Reviews</a>
-        </li>
-        <li>
-          <a class="link" href="#application">Contact us</a>
-        </li>
-      </ul>
-      <ul class="socials media-icons">
-        <li class="media-item">
-          <a class="media-item-link" href="https://www.facebook.com/goITclub/" target="_blank">
-            <svg class="media-icon" width="28" height="28">
-              <use href="/project-group-2/assets/sprite-CPeSfmjJ.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="media-item">
-          <a class="media-item-link" href="https://www.instagram.com/goitclub/" target="_blank">
-            <svg class="media-icon" width="28" height="28">
-              <use href="/project-group-2/assets/sprite-CPeSfmjJ.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="media-item">
-          <a class="media-item-link" href="https://www.youtube.com/c/GoIT" target="_blank">
-            <svg class="media-icon" width="28" height="28">
-              <use href="/project-group-2/assets/sprite-CPeSfmjJ.svg#icon-youtube"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </nav>
+      </li>
+      <li class="media-item">
+        <a
+          class="media-item-link"
+          href="https://www.instagram.com/goitclub/"
+          target="_blank"
+          aria-label="transition to the site instagram"
+        >
+          <svg class="media-icon" width="28" height="28">
+            <use href="/project-group-2/assets/sprite-CPeSfmjJ.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="media-item">
+        <a
+          class="media-item-link"
+          href="https://www.youtube.com/c/GoIT"
+          target="_blank"
+          aria-label="transition to the site youtube"
+        >
+          <svg class="media-icon" width="28" height="28">
+            <use href="/project-group-2/assets/sprite-CPeSfmjJ.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
 </div>
+
     </main>
 
     <footer class="page-footer" id="footer">
@@ -775,19 +850,38 @@
     <div class="footer-nav">
       <ul class="page-nav-links">
         <li class="list-item">
-          <a class="link" href="#about">About us</a>
+          <a class="link" href="#about" aria-label="go to the section About us"
+            >About us</a
+          >
         </li>
         <li class="list-item">
-          <a class="link" href="#lessons">Our lessons</a>
+          <a
+            class="link"
+            href="#lessons"
+            aria-label="go to the section Our lessons"
+            >Our lessons</a
+          >
         </li>
         <li class="list-item">
-          <a class="link" href="#teachers">Teachers</a>
+          <a
+            class="link"
+            href="#teachers"
+            aria-label="go to the section Teachers"
+            >Teachers</a
+          >
         </li>
         <li class="list-item">
-          <a class="link" href="#reviews">Reviews</a>
+          <a class="link" href="#reviews" aria-label="go to the section Reviews"
+            >Reviews</a
+          >
         </li>
         <li class="list-item">
-          <a class="link" href="#application">Contact us</a>
+          <a
+            class="link"
+            href="#application"
+            aria-label="go to the section Contact us"
+            >Contact us</a
+          >
         </li>
       </ul>
     </div>
@@ -798,7 +892,12 @@
     data-wow-delay="1.2s"
     data-wow-duration="0.3s"
   >
-  <a class="media-item-link" href="https://www.facebook.com/goITclub/" target="_blank">
+    <a
+      class="media-item-link"
+      href="https://www.facebook.com/goITclub/"
+      target="_blank"
+      aria-label="go to the Facebook site"
+    >
       <svg class="media-icon" width="28" height="28">
     <use href="/project-group-2/assets/sprite-CPeSfmjJ.svg#icon-facebook"></use>
 </svg>
@@ -810,7 +909,12 @@
     data-wow-delay="1.4s"
     data-wow-duration="0.3s"
   >
-  <a class="media-item-link" href="https://www.instagram.com/goitclub/" target="_blank">
+    <a
+      class="media-item-link"
+      href="https://www.instagram.com/goitclub/"
+      target="_blank"
+      aria-label="go to the Instagram site"
+    >
       <svg class="media-icon" width="28" height="28">
     <use href="/project-group-2/assets/sprite-CPeSfmjJ.svg#icon-instagram"></use>
 </svg>
@@ -822,7 +926,12 @@
     data-wow-delay="1.6s"
     data-wow-duration="0.3s"
   >
-  <a class="media-item-link" href="https://www.youtube.com/c/GoIT" target="_blank">
+    <a
+      class="media-item-link"
+      href="https://www.youtube.com/c/GoIT"
+      target="_blank"
+      c
+    >
       <svg class="media-icon" width="28" height="28">
     <use href="/project-group-2/assets/sprite-CPeSfmjJ.svg#icon-youtube"></use>
 </svg>
@@ -838,10 +947,14 @@
       >
       <ul class="footer-links">
         <li>
-          <a class="link" href="#">Privacy Policy</a>
+          <a class="link" href="#" aria-label="go to the Privacy Policy"
+            >Privacy Policy</a
+          >
         </li>
         <li>
-          <a class="link" href="#">Terms of Service</a>
+          <a class="link" href="#" aria-label="go to the Terms of Service"
+            >Terms of Service</a
+          >
         </li>
       </ul>
     </div>
