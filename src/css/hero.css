@@ -79,6 +79,16 @@ a.hero-btn:hover {
     fill: var(--white);
 }
 
+@media only screen and (max-width: 374px) {
+    h1.hero-title {
+        width: 258px;
+    }
+
+    a.hero-btn {
+        padding: 16px 30px;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     .hero {
         margin-top: 52px;
